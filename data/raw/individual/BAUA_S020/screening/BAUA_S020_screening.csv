@@ -1,0 +1,4 @@
+record_id,redcap_repeat_instrument,redcap_repeat_instance,redcap_survey_identifier,screeningfragebogen_gesundheit_timestamp,medication,medication_type,tobacco,drugs,disorder,gen_health,visual_acuity,availability___1,availability___2,availability___3,availability___4,availability___5,availability___6,availability___7,screeningfragebogen_gesundheit_complete
+21,,,BAUA_S020,,,,,,,,,,,,,,,,
+21,screeningfragebogen_gesundheit,1,,"[not completed]",0,,1,0,0,1,2,0,0,0,0,0,0,0,0
+21,screeningfragebogen_gesundheit,2,,"2025-09-22 08:52:20",0,,1,0,0,1,2,0,0,0,0,0,0,1,2

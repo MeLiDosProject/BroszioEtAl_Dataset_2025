@@ -1,0 +1,49 @@
+record_id,redcap_repeat_instrument,redcap_repeat_instance,redcap_survey_identifier,fragebogen_zu_morgen_und_abendaktivitten_meq_timestamp,meq_freewake,meq_freesleep,meq_alarm,meq_wakeupease,meq_mor_alert,meq_mor_hunger,meq_mor_feel,meq_free_bedtime,meq_mor_exercise,meq_eve_tired,meq_peak_perf,meq_eleven_tired,meq_delayed_sleep,meq_shift_conseq,meq_phys_work,meq_eve_exercise,meq_ideal_week,meq_besthour,meq_perceived_chron,fragebogen_zu_morgen_und_abendaktivitten_meq_complete
+1,,,BAUA_S001,,,,,,,,,,,,,,,,,,,,,
+"1,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-10 08:07:48"",3,2,3,3,3,4,3,1,1,2,1,3,2,4,1,4,2,3,1,2"
+2,,,BAUA_S002,,,,,,,,,,,,,,,,,,,,,
+"2,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-10 13:44:05"",3,3,4,3,3,1,3,3,2,3,1,3,2,1,1,4,2,3,2,2"
+3,,,BAUA_S003,,,,,,,,,,,,,,,,,,,,,
+"3,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-10 14:52:09"",3,3,3,4,3,2,3,3,2,3,2,4,3,1,1,4,2,3,1,2"
+4,,,BAUA_S004,,,,,,,,,,,,,,,,,,,,,
+"4,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-10 16:56:59"",2,3,4,4,3,2,3,1,2,2,1,2,4,4,1,1,5,2,3,2"
+5,,,BAUA_S005,,,,,,,,,,,,,,,,,,,,,
+"5,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-10 17:56:13"",3,4,3,3,3,1,3,2,2,4,2,1,2,3,3,2,2,4,3,2"
+6,,,BAUA_S006,,,,,,,,,,,,,,,,,,,,,
+"6,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-10 21:31:08"",3,3,4,4,4,2,3,2,2,3,2,3,3,3,2,2,3,3,3,2"
+7,,,BAUA_S007,,,,,,,,,,,,,,,,,,,,,
+"7,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-24 08:07:26"",2,2,4,2,3,2,3,3,2,2,1,3,1,2,1,3,2,2,2,2"
+8,,,BAUA_S008,,,,,,,,,,,,,,,,,,,,,
+"8,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-24 09:54:20"",4,4,3,3,2,2,2,3,3,3,2,3,2,3,2,3,2,3,3,2"
+9,,,BAUA_S009,,,,,,,,,,,,,,,,,,,,,
+"9,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-24 11:37:16"",3,4,3,3,3,1,3,3,3,3,3,2,3,4,2,2,3,3,4,2"
+10,,,BAUA_S010,,,,,,,,,,,,,,,,,,,,,
+"10,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-24 16:53:51"",3,4,4,2,1,3,2,3,2,4,1,2,4,2,2,2,3,2,3,2"
+11,,,BAUA_S011,,,,,,,,,,,,,,,,,,,,,
+"11,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-06-24 18:05:20"",4,3,4,1,1,1,1,3,4,3,2,3,1,2,2,4,2,3,2,2"
+12,,,BAUA_S012,,,,,,,,,,,,,,,,,,,,,
+"12,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-07-15 08:25:32"",4,3,4,2,2,1,2,2,3,3,2,2,4,1,2,3,3,3,3,2"
+13,,,BAUA_S013,,,,,,,,,,,,,,,,,,,,,
+"13,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-07-15 09:56:43"",3,3,2,4,2,1,3,3,3,3,1,2,2,2,1,4,2,2,2,2"
+14,,,BAUA_S014,,,,,,,,,,,,,,,,,,,,,
+"14,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-07-15 14:32:12"",2,2,4,3,2,2,2,1,2,3,1,3,2,2,2,4,2,2,2,2"
+15,,,BAUA_S015,,,,,,,,,,,,,,,,,,,,,
+"15,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-07-22 12:56:07"",4,5,4,2,2,1,2,3,3,3,3,2,4,3,3,2,3,3,3,2"
+16,,,BAUA_S016,,,,,,,,,,,,,,,,,,,,,
+"16,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-07-22 17:47:35"",3,2,4,3,3,2,3,2,1,2,1,3,4,4,1,3,1,2,1,2"
+18,,,BAUA_S017,,,,,,,,,,,,,,,,,,,,,
+"18,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-09-08 14:49:25"",3,4,2,3,3,2,2,3,2,5,3,2,2,4,4,2,3,4,3,2"
+19,,,BAUA_S018,,,,,,,,,,,,,,,,,,,,,
+"19,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-09-08 19:35:22"",4,4,4,2,3,1,3,3,3,4,2,1,1,1,2,2,2,4,4,2"
+20,,,BAUA_S020,,,,,,,,,,,,,,,,,,,,,
+"20,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-09-22 07:13:38"",2,3,4,3,2,1,3,2,2,3,2,2,2,1,2,3,3,2,2,2"
+21,,,BAUA_S019,,,,,,,,,,,,,,,,,,,,,
+"21,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-09-22 08:57:49"",2,3,2,3,2,1,2,3,1,1,1,4,1,4,1,4,1,2,1,2"
+22,,,BAUA_S022,,,,,,,,,,,,,,,,,,,,,
+"22,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-09-22 15:18:31"",4,3,4,3,2,3,3,3,3,2,2,2,2,2,2,3,3,3,3,2"
+23,,,BAUA_S023,,,,,,,,,,,,,,,,,,,,,
+"23,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-09-23 09:23:45"",4,5,4,2,2,1,2,3,3,3,2,2,4,1,2,3,2,3,3,2"
+24,,,BAUA_S025,,,,,,,,,,,,,,,,,,,,,
+"24,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-10-13 10:29:17"",4,3,3,4,3,1,2,3,3,3,3,3,3,3,3,2,3,4,4,2"
+25,,,BAUA_S024,,,,,,,,,,,,,,,,,,,,,
+"25,fragebogen_zu_morgen_und_abendaktivitten_meq,1,,""2025-10-13 11:18:41"",2,2,4,3,3,1,3,4,2,3,1,3,3,3,1,4,3,2,2,2"

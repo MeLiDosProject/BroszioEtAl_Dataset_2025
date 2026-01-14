@@ -1,0 +1,4 @@
+record_id,redcap_repeat_instrument,redcap_repeat_instance,redcap_survey_identifier,screeningfragebogen_demografische_daten_timestamp,email,email_2,age,sex,gender,native_language,language_specification,employment_status,comments,screeningfragebogen_demografische_daten_complete
+21,,,BAUA_S020,,,,,,,,,,,
+"21,screeningfragebogen_demografische_daten,1,,""2025-09-22 06:53:34"",,,47,2,2,1,,0,,2"
+"21,screeningfragebogen_demografische_daten,2,,""2025-09-22 08:51:55"",,,47,2,2,1,,0,,2"
