@@ -1,0 +1,105 @@
+---
+title: "Import sleep diaries"
+author: "Johannes Zauner"
+format: 
+  html:
+    self-contained: true
+    code-tools: true
+---
+
+## Preface
+
+This document imports the `sleepdiaries` and shows descriptive statistics for the site.
+
+## Setup
+
+```{r}
+#| message: false
+library(tidyverse)
+library(LightLogR)
+library(glue)
+library(readxl)
+library(gt)
+library(gtsummary)
+
+remote <- 
+  "https://raw.githubusercontent.com/MeLiDosProject/Data_Metadata_Conventions/main/scripts/"
+
+c("labeling",
+  "radio_factors",
+  "time_summaries",
+  "prepare_codebook",
+  "filefinder",
+  "general_parameters",
+  "coltype_checker",
+  "tables"
+) |> walk(\(x) source(paste0(remote, x, ".R")))
+```
+
+## Preparation
+
+```{r}
+#collect codebook
+codebook <- prepare_codebook("MeLiDosMorningSleepDiaries_DataDictionary_2024-10-16.csv")
+#collect files
+files <- filefinder("sleepdiary", continuous = TRUE)
+#import files
+data <- 
+  read_csv(files, show_col_types = FALSE) |> 
+  fill(redcap_survey_identifier) |> 
+  drop_na(bedtime) |> 
+  mutate(record_id = redcap_survey_identifier)
+#check column types
+coltype_check <- coltype_checker(codebook, data)
+coltype_check$details |> gt()
+#collect relevant columns: POSIXct, Date & numeric
+relevant_columns <- 
+  coltype_check$details |> 
+  filter(expected %in% c("POSIXct", "numeric", "Date")) |> 
+  pull(col) |> 
+  setdiff(c("status", "scheduledate"))
+#add specific character columns
+relevant_columns <- c("record_id", relevant_columns, "comments")
+#select relevant columns
+data <- data |> select(any_of(relevant_columns))
+#label variables
+data <-
+data |> 
+  add_radio_factors(codebook, 
+                    var_col = `Variable / Field Name`, 
+                    type_col = `Field Type`,
+                    levels_col = `Choices, Calculations, OR Slider Labels`
+                    ) |> 
+  add_col_labels(codebook, var_col = `Variable / Field Name`, label_col = `Field Label`)
+```
+
+## Calculate sleep and sleepduration
+
+```{r}
+data <-
+data |> 
+  rename(wake = offset, sleepprep = sleep) |>
+  mutate(sleep = sleepprep + dminutes(sleepdelay),
+         sleep_duration = wake - sleep
+  )
+
+attr(data$sleep, "label") <- "Sleep onset (calculated)"
+attr(data$sleep_duration, "label") <- "Sleep duration (calculated)"
+```
+
+## Summarize results
+
+```{r}
+table_sleepdiary(data)
+gtsave(table_sleepdiary(data) |> as_gt(), filename = "../output/tables/table_sleepdiary.png", vwidth = 800)
+```
+
+### Export
+
+```{r}
+data <- data |> rename(Id = record_id)
+sleepdiary <- data
+path <- "../data/imported/continuous/"
+if(!dir.exists(path)) dir.create(path, recursive = TRUE)
+save(sleepdiary, file = "../data/imported/continuous/sleepdiaries.RData")
+```

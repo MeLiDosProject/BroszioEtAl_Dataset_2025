@@ -38,6 +38,21 @@ APA reference:
 
 > Broszio, K., Zauner, J., & Spitschan, M. (2025). Personal light exposure dataset for Dortmund, Germany (Version 1.0.0) [Data set]. URL: https://github.com/MeLiDosProject/BroszioEtAl_Dataset_2025. DOI: doi.org/10.5281/zenodo.18111232
 
+## Descriptive statistics
+
+### Demographics
+
+![Summary table of participant demographics](output/tables/table_demographics.png)
+
+### Light
+
+![Summary table of personal light exposure (eye-level data)](output/tables/table_summary.png)
+
+### Sleep
+
+![Summary table of the morning sleep diary](output/tables/table_sleepdiary.png)
+
+
 ## Summary of the dataset
 | Dataset name | BAUA |
 | --- | --- |
