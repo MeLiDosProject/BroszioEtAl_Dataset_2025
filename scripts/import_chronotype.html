@@ -2259,8 +2259,9 @@ vertical-align: -.125em;
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;filefinder&quot;</span>,</span>
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;general_parameters&quot;</span>,</span>
 <span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;coltype_checker&quot;</span>,</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;tables&quot;</span></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> <span class="fu">walk</span>(\(x) <span class="fu">source</span>(<span class="fu">paste0</span>(remote, x, <span class="st">&quot;.R&quot;</span>)))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;mctq_bedsleeptimes&quot;</span>,</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;tables&quot;</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> <span class="fu">walk</span>(\(x) <span class="fu">source</span>(<span class="fu">paste0</span>(remote, x, <span class="st">&quot;.R&quot;</span>)))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>#calculate mctq</p>
 <div class="cell">
@@ -2275,20 +2276,20 @@ vertical-align: -.125em;
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>coltype_check <span class="ot">&lt;-</span> <span class="fu">coltype_checker</span>(codebook, data)</span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>coltype_check<span class="sc">$</span>details <span class="sc">|&gt;</span> <span class="fu">gt</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
-<div id="qoytspksmt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#qoytspksmt table {
+<div id="juheeiojaa" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#juheeiojaa table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#qoytspksmt thead, #qoytspksmt tbody, #qoytspksmt tfoot, #qoytspksmt tr, #qoytspksmt td, #qoytspksmt th {
+#juheeiojaa thead, #juheeiojaa tbody, #juheeiojaa tfoot, #juheeiojaa tr, #juheeiojaa td, #juheeiojaa th {
 border-style: none;
 }
-#qoytspksmt p {
+#juheeiojaa p {
 margin: 0;
 padding: 0;
 }
-#qoytspksmt .gt_table {
+#juheeiojaa .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -2313,11 +2314,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#qoytspksmt .gt_caption {
+#juheeiojaa .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#qoytspksmt .gt_title {
+#juheeiojaa .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -2328,7 +2329,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#qoytspksmt .gt_subtitle {
+#juheeiojaa .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -2339,7 +2340,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#qoytspksmt .gt_heading {
+#juheeiojaa .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -2350,12 +2351,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#qoytspksmt .gt_bottom_border {
+#juheeiojaa .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#qoytspksmt .gt_col_headings {
+#juheeiojaa .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -2369,7 +2370,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#qoytspksmt .gt_col_heading {
+#juheeiojaa .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2388,7 +2389,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#qoytspksmt .gt_column_spanner_outer {
+#juheeiojaa .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2399,13 +2400,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#qoytspksmt .gt_column_spanner_outer:first-child {
+#juheeiojaa .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#qoytspksmt .gt_column_spanner_outer:last-child {
+#juheeiojaa .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#qoytspksmt .gt_column_spanner {
+#juheeiojaa .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -2416,10 +2417,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#qoytspksmt .gt_spanner_row {
+#juheeiojaa .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#qoytspksmt .gt_group_heading {
+#juheeiojaa .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2444,7 +2445,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#qoytspksmt .gt_empty_group_heading {
+#juheeiojaa .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -2458,13 +2459,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#qoytspksmt .gt_from_md > :first-child {
+#juheeiojaa .gt_from_md > :first-child {
 margin-top: 0;
 }
-#qoytspksmt .gt_from_md > :last-child {
+#juheeiojaa .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#qoytspksmt .gt_row {
+#juheeiojaa .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2482,7 +2483,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#qoytspksmt .gt_stub {
+#juheeiojaa .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2494,7 +2495,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#qoytspksmt .gt_stub_row_group {
+#juheeiojaa .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2507,13 +2508,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#qoytspksmt .gt_row_group_first td {
+#juheeiojaa .gt_row_group_first td {
 border-top-width: 2px;
 }
-#qoytspksmt .gt_row_group_first th {
+#juheeiojaa .gt_row_group_first th {
 border-top-width: 2px;
 }
-#qoytspksmt .gt_summary_row {
+#juheeiojaa .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -2522,14 +2523,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#qoytspksmt .gt_first_summary_row {
+#juheeiojaa .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#qoytspksmt .gt_first_summary_row.thick {
+#juheeiojaa .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#qoytspksmt .gt_last_summary_row {
+#juheeiojaa .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2538,7 +2539,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#qoytspksmt .gt_grand_summary_row {
+#juheeiojaa .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -2547,7 +2548,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#qoytspksmt .gt_first_grand_summary_row {
+#juheeiojaa .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2556,7 +2557,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#qoytspksmt .gt_last_grand_summary_row_top {
+#juheeiojaa .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2565,10 +2566,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#qoytspksmt .gt_striped {
+#juheeiojaa .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#qoytspksmt .gt_table_body {
+#juheeiojaa .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -2576,7 +2577,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#qoytspksmt .gt_footnotes {
+#juheeiojaa .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -2589,7 +2590,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#qoytspksmt .gt_footnote {
+#juheeiojaa .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -2597,7 +2598,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#qoytspksmt .gt_sourcenotes {
+#juheeiojaa .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -2610,64 +2611,64 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#qoytspksmt .gt_sourcenote {
+#juheeiojaa .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#qoytspksmt .gt_left {
+#juheeiojaa .gt_left {
 text-align: left;
 }
-#qoytspksmt .gt_center {
+#juheeiojaa .gt_center {
 text-align: center;
 }
-#qoytspksmt .gt_right {
+#juheeiojaa .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#qoytspksmt .gt_font_normal {
+#juheeiojaa .gt_font_normal {
 font-weight: normal;
 }
-#qoytspksmt .gt_font_bold {
+#juheeiojaa .gt_font_bold {
 font-weight: bold;
 }
-#qoytspksmt .gt_font_italic {
+#juheeiojaa .gt_font_italic {
 font-style: italic;
 }
-#qoytspksmt .gt_super {
+#juheeiojaa .gt_super {
 font-size: 65%;
 }
-#qoytspksmt .gt_footnote_marks {
+#juheeiojaa .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#qoytspksmt .gt_asterisk {
+#juheeiojaa .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#qoytspksmt .gt_indent_1 {
+#juheeiojaa .gt_indent_1 {
 text-indent: 5px;
 }
-#qoytspksmt .gt_indent_2 {
+#juheeiojaa .gt_indent_2 {
 text-indent: 10px;
 }
-#qoytspksmt .gt_indent_3 {
+#juheeiojaa .gt_indent_3 {
 text-indent: 15px;
 }
-#qoytspksmt .gt_indent_4 {
+#juheeiojaa .gt_indent_4 {
 text-indent: 20px;
 }
-#qoytspksmt .gt_indent_5 {
+#juheeiojaa .gt_indent_5 {
 text-indent: 25px;
 }
-#qoytspksmt .katex-display {
+#juheeiojaa .katex-display {
 display: inline-flex !important;
 margin-bottom: 0.75em !important;
 }
-#qoytspksmt div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#juheeiojaa div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
 height: 0px !important;
 }
 </style>
@@ -3417,20 +3418,9 @@ height: 0px !important;
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">#select relevant columns</span></span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="fu">any_of</span>(relevant_columns))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p>Some participants indicated that they are ready to sleep before going to bed. In the way the questionnaire is analysed, this has to be after they go to bed. Thus we will take the later time in both cases (i.e., if bedtime is later then ready to sleep, we will use this).</p>
+<p>In case participants provide a later bed time than sleep time, bedtimes are used.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a> data <span class="sc">%&gt;%</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a> <span class="fu">pivot_longer</span>(</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">contains</span>(<span class="fu">c</span>(<span class="st">&quot;ready_sleep_&quot;</span>, <span class="st">&quot;bedtime&quot;</span>)),</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="fu">c</span>(<span class="st">&quot;.value&quot;</span>, <span class="st">&quot;context&quot;</span>),</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_pattern =</span> <span class="st">&quot;^(mctq_bedtime|mctq_ready_sleep)_(.*)$&quot;</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">mctq_ready_sleep =</span> <span class="fu">pmax</span>(mctq_bedtime, mctq_ready_sleep),</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">mctq_nr_workdays_adj =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(mctq_nr_workdays), <span class="dv">5</span>, mctq_nr_workdays)</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> context, <span class="at">values_from =</span> <span class="fu">c</span>(mctq_bedtime, mctq_ready_sleep))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">mctq_bedsleeptimes</span>(data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <blockquote class="blockquote">
 <p>Note: participants that indicated no number of regular work days, but that still provided numbers for work- and free days will be calculated as 5 work days and 2 free days.</p>
@@ -3512,20 +3502,20 @@ meq_ideal_week, meq_besthour, meq_perceived_chron</code></pre>
 <span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>coltype_check <span class="ot">&lt;-</span> <span class="fu">coltype_checker</span>(codebook, data)</span>
 <span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>coltype_check<span class="sc">$</span>details <span class="sc">|&gt;</span> <span class="fu">gt</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
-<div id="tawhylmqpj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#tawhylmqpj table {
+<div id="qkhvbdysyy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#qkhvbdysyy table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#tawhylmqpj thead, #tawhylmqpj tbody, #tawhylmqpj tfoot, #tawhylmqpj tr, #tawhylmqpj td, #tawhylmqpj th {
+#qkhvbdysyy thead, #qkhvbdysyy tbody, #qkhvbdysyy tfoot, #qkhvbdysyy tr, #qkhvbdysyy td, #qkhvbdysyy th {
 border-style: none;
 }
-#tawhylmqpj p {
+#qkhvbdysyy p {
 margin: 0;
 padding: 0;
 }
-#tawhylmqpj .gt_table {
+#qkhvbdysyy .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -3550,11 +3540,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#tawhylmqpj .gt_caption {
+#qkhvbdysyy .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#tawhylmqpj .gt_title {
+#qkhvbdysyy .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -3565,7 +3555,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#tawhylmqpj .gt_subtitle {
+#qkhvbdysyy .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -3576,7 +3566,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#tawhylmqpj .gt_heading {
+#qkhvbdysyy .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -3587,12 +3577,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#tawhylmqpj .gt_bottom_border {
+#qkhvbdysyy .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#tawhylmqpj .gt_col_headings {
+#qkhvbdysyy .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -3606,7 +3596,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#tawhylmqpj .gt_col_heading {
+#qkhvbdysyy .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3625,7 +3615,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#tawhylmqpj .gt_column_spanner_outer {
+#qkhvbdysyy .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3636,13 +3626,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#tawhylmqpj .gt_column_spanner_outer:first-child {
+#qkhvbdysyy .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#tawhylmqpj .gt_column_spanner_outer:last-child {
+#qkhvbdysyy .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#tawhylmqpj .gt_column_spanner {
+#qkhvbdysyy .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -3653,10 +3643,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#tawhylmqpj .gt_spanner_row {
+#qkhvbdysyy .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#tawhylmqpj .gt_group_heading {
+#qkhvbdysyy .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3681,7 +3671,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#tawhylmqpj .gt_empty_group_heading {
+#qkhvbdysyy .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -3695,13 +3685,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#tawhylmqpj .gt_from_md > :first-child {
+#qkhvbdysyy .gt_from_md > :first-child {
 margin-top: 0;
 }
-#tawhylmqpj .gt_from_md > :last-child {
+#qkhvbdysyy .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#tawhylmqpj .gt_row {
+#qkhvbdysyy .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3719,7 +3709,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#tawhylmqpj .gt_stub {
+#qkhvbdysyy .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3731,7 +3721,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tawhylmqpj .gt_stub_row_group {
+#qkhvbdysyy .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3744,13 +3734,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#tawhylmqpj .gt_row_group_first td {
+#qkhvbdysyy .gt_row_group_first td {
 border-top-width: 2px;
 }
-#tawhylmqpj .gt_row_group_first th {
+#qkhvbdysyy .gt_row_group_first th {
 border-top-width: 2px;
 }
-#tawhylmqpj .gt_summary_row {
+#qkhvbdysyy .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -3759,14 +3749,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tawhylmqpj .gt_first_summary_row {
+#qkhvbdysyy .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#tawhylmqpj .gt_first_summary_row.thick {
+#qkhvbdysyy .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#tawhylmqpj .gt_last_summary_row {
+#qkhvbdysyy .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3775,7 +3765,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#tawhylmqpj .gt_grand_summary_row {
+#qkhvbdysyy .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -3784,7 +3774,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tawhylmqpj .gt_first_grand_summary_row {
+#qkhvbdysyy .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3793,7 +3783,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#tawhylmqpj .gt_last_grand_summary_row_top {
+#qkhvbdysyy .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3802,10 +3792,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#tawhylmqpj .gt_striped {
+#qkhvbdysyy .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#tawhylmqpj .gt_table_body {
+#qkhvbdysyy .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -3813,7 +3803,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#tawhylmqpj .gt_footnotes {
+#qkhvbdysyy .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -3826,7 +3816,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#tawhylmqpj .gt_footnote {
+#qkhvbdysyy .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -3834,7 +3824,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tawhylmqpj .gt_sourcenotes {
+#qkhvbdysyy .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -3847,64 +3837,64 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#tawhylmqpj .gt_sourcenote {
+#qkhvbdysyy .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tawhylmqpj .gt_left {
+#qkhvbdysyy .gt_left {
 text-align: left;
 }
-#tawhylmqpj .gt_center {
+#qkhvbdysyy .gt_center {
 text-align: center;
 }
-#tawhylmqpj .gt_right {
+#qkhvbdysyy .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#tawhylmqpj .gt_font_normal {
+#qkhvbdysyy .gt_font_normal {
 font-weight: normal;
 }
-#tawhylmqpj .gt_font_bold {
+#qkhvbdysyy .gt_font_bold {
 font-weight: bold;
 }
-#tawhylmqpj .gt_font_italic {
+#qkhvbdysyy .gt_font_italic {
 font-style: italic;
 }
-#tawhylmqpj .gt_super {
+#qkhvbdysyy .gt_super {
 font-size: 65%;
 }
-#tawhylmqpj .gt_footnote_marks {
+#qkhvbdysyy .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#tawhylmqpj .gt_asterisk {
+#qkhvbdysyy .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#tawhylmqpj .gt_indent_1 {
+#qkhvbdysyy .gt_indent_1 {
 text-indent: 5px;
 }
-#tawhylmqpj .gt_indent_2 {
+#qkhvbdysyy .gt_indent_2 {
 text-indent: 10px;
 }
-#tawhylmqpj .gt_indent_3 {
+#qkhvbdysyy .gt_indent_3 {
 text-indent: 15px;
 }
-#tawhylmqpj .gt_indent_4 {
+#qkhvbdysyy .gt_indent_4 {
 text-indent: 20px;
 }
-#tawhylmqpj .gt_indent_5 {
+#qkhvbdysyy .gt_indent_5 {
 text-indent: 25px;
 }
-#tawhylmqpj .katex-display {
+#qkhvbdysyy .katex-display {
 display: inline-flex !important;
 margin-bottom: 0.75em !important;
 }
-#tawhylmqpj div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#qkhvbdysyy div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
 height: 0px !important;
 }
 </style>
@@ -4754,20 +4744,20 @@ nr_sleep_med, meq_instructions</code></pre>
 <span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a><span class="fu">table_chronotype</span>(chronotype)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
-<div id="ztozswemld" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ztozswemld table {
+<div id="heipxffadz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#heipxffadz table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#ztozswemld thead, #ztozswemld tbody, #ztozswemld tfoot, #ztozswemld tr, #ztozswemld td, #ztozswemld th {
+#heipxffadz thead, #heipxffadz tbody, #heipxffadz tfoot, #heipxffadz tr, #heipxffadz td, #heipxffadz th {
 border-style: none;
 }
-#ztozswemld p {
+#heipxffadz p {
 margin: 0;
 padding: 0;
 }
-#ztozswemld .gt_table {
+#heipxffadz .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -4792,11 +4782,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#ztozswemld .gt_caption {
+#heipxffadz .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#ztozswemld .gt_title {
+#heipxffadz .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -4807,7 +4797,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#ztozswemld .gt_subtitle {
+#heipxffadz .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -4818,7 +4808,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#ztozswemld .gt_heading {
+#heipxffadz .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -4829,12 +4819,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#ztozswemld .gt_bottom_border {
+#heipxffadz .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#ztozswemld .gt_col_headings {
+#heipxffadz .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -4848,7 +4838,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#ztozswemld .gt_col_heading {
+#heipxffadz .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -4867,7 +4857,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#ztozswemld .gt_column_spanner_outer {
+#heipxffadz .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -4878,13 +4868,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#ztozswemld .gt_column_spanner_outer:first-child {
+#heipxffadz .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#ztozswemld .gt_column_spanner_outer:last-child {
+#heipxffadz .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#ztozswemld .gt_column_spanner {
+#heipxffadz .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -4895,10 +4885,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#ztozswemld .gt_spanner_row {
+#heipxffadz .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#ztozswemld .gt_group_heading {
+#heipxffadz .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -4923,7 +4913,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#ztozswemld .gt_empty_group_heading {
+#heipxffadz .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -4937,13 +4927,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#ztozswemld .gt_from_md > :first-child {
+#heipxffadz .gt_from_md > :first-child {
 margin-top: 0;
 }
-#ztozswemld .gt_from_md > :last-child {
+#heipxffadz .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#ztozswemld .gt_row {
+#heipxffadz .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -4961,7 +4951,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#ztozswemld .gt_stub {
+#heipxffadz .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -4973,7 +4963,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#ztozswemld .gt_stub_row_group {
+#heipxffadz .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -4986,13 +4976,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#ztozswemld .gt_row_group_first td {
+#heipxffadz .gt_row_group_first td {
 border-top-width: 2px;
 }
-#ztozswemld .gt_row_group_first th {
+#heipxffadz .gt_row_group_first th {
 border-top-width: 2px;
 }
-#ztozswemld .gt_summary_row {
+#heipxffadz .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -5001,14 +4991,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#ztozswemld .gt_first_summary_row {
+#heipxffadz .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#ztozswemld .gt_first_summary_row.thick {
+#heipxffadz .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#ztozswemld .gt_last_summary_row {
+#heipxffadz .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -5017,7 +5007,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#ztozswemld .gt_grand_summary_row {
+#heipxffadz .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -5026,7 +5016,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#ztozswemld .gt_first_grand_summary_row {
+#heipxffadz .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -5035,7 +5025,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#ztozswemld .gt_last_grand_summary_row_top {
+#heipxffadz .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -5044,10 +5034,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#ztozswemld .gt_striped {
+#heipxffadz .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#ztozswemld .gt_table_body {
+#heipxffadz .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -5055,7 +5045,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#ztozswemld .gt_footnotes {
+#heipxffadz .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -5068,7 +5058,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#ztozswemld .gt_footnote {
+#heipxffadz .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -5076,7 +5066,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#ztozswemld .gt_sourcenotes {
+#heipxffadz .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -5089,64 +5079,64 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#ztozswemld .gt_sourcenote {
+#heipxffadz .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#ztozswemld .gt_left {
+#heipxffadz .gt_left {
 text-align: left;
 }
-#ztozswemld .gt_center {
+#heipxffadz .gt_center {
 text-align: center;
 }
-#ztozswemld .gt_right {
+#heipxffadz .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#ztozswemld .gt_font_normal {
+#heipxffadz .gt_font_normal {
 font-weight: normal;
 }
-#ztozswemld .gt_font_bold {
+#heipxffadz .gt_font_bold {
 font-weight: bold;
 }
-#ztozswemld .gt_font_italic {
+#heipxffadz .gt_font_italic {
 font-style: italic;
 }
-#ztozswemld .gt_super {
+#heipxffadz .gt_super {
 font-size: 65%;
 }
-#ztozswemld .gt_footnote_marks {
+#heipxffadz .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#ztozswemld .gt_asterisk {
+#heipxffadz .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#ztozswemld .gt_indent_1 {
+#heipxffadz .gt_indent_1 {
 text-indent: 5px;
 }
-#ztozswemld .gt_indent_2 {
+#heipxffadz .gt_indent_2 {
 text-indent: 10px;
 }
-#ztozswemld .gt_indent_3 {
+#heipxffadz .gt_indent_3 {
 text-indent: 15px;
 }
-#ztozswemld .gt_indent_4 {
+#heipxffadz .gt_indent_4 {
 text-indent: 20px;
 }
-#ztozswemld .gt_indent_5 {
+#heipxffadz .gt_indent_5 {
 text-indent: 25px;
 }
-#ztozswemld .katex-display {
+#heipxffadz .katex-display {
 display: inline-flex !important;
 margin-bottom: 0.75em !important;
 }
-#ztozswemld div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#heipxffadz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
 height: 0px !important;
 }
 </style>
@@ -5209,12 +5199,12 @@ height: 0px !important;
 <tr class="even">
 <td class="gt_row gt_left" headers="label" style="font-weight: bold">Mid-sleep on free days, sleep corrected (calculated)</td>
 <td class="gt_row gt_center" headers="n">24</td>
-<td class="gt_row gt_center" headers="stat_0">03:47:00 (02:49:17.142857, 04:12:35.357143)</td>
+<td class="gt_row gt_center" headers="stat_0">03:47:00 (02:49:17.142857, 04:28:23.571428)</td>
 </tr>
 <tr class="odd">
 <td class="gt_row gt_left" headers="label" style="font-weight: bold">Social jetlag (calculated)</td>
 <td class="gt_row gt_center" headers="n">24</td>
-<td class="gt_row gt_center" headers="stat_0">4,500 (3150s (~52.5 minutes), 6375s (~1.77 hours))</td>
+<td class="gt_row gt_center" headers="stat_0">4,575 (3150s (~52.5 minutes), 6075s (~1.69 hours))</td>
 </tr>
 <tr class="even">
 <td class="gt_row gt_left" headers="label" style="font-weight: bold">Sleep onset on working days (calculated)</td>
@@ -5224,12 +5214,12 @@ height: 0px !important;
 <tr class="odd">
 <td class="gt_row gt_left" headers="label" style="font-weight: bold">Sleep onset on free days (calculated)</td>
 <td class="gt_row gt_center" headers="n">24</td>
-<td class="gt_row gt_center" headers="stat_0">23:56:40 (23:08:45, 00:26:15)</td>
+<td class="gt_row gt_center" headers="stat_0">00:00:00 (23:08:45, 00:26:15)</td>
 </tr>
 <tr class="even">
 <td class="gt_row gt_left" headers="label" style="font-weight: bold">Sleep duration on working days (calculated)</td>
 <td class="gt_row gt_center" headers="n">24</td>
-<td class="gt_row gt_center" headers="stat_0">26,400 (24750s (~6.88 hours), 30300s (~8.42 hours))</td>
+<td class="gt_row gt_center" headers="stat_0">26,400 (24750s (~6.88 hours), 29400s (~8.17 hours))</td>
 </tr>
 <tr class="odd">
 <td class="gt_row gt_left" headers="label" style="font-weight: bold">Sleep duration on free days (calculated)</td>
@@ -5244,12 +5234,12 @@ height: 0px !important;
 <tr class="odd">
 <td class="gt_row gt_left" headers="label" style="font-weight: bold">Mid-sleep on free days (calculated)</td>
 <td class="gt_row gt_center" headers="n">24</td>
-<td class="gt_row gt_center" headers="stat_0">03:58:20 (03:28:07.5, 04:31:15)</td>
+<td class="gt_row gt_center" headers="stat_0">03:57:30 (03:28:07.5, 04:31:15)</td>
 </tr>
 <tr class="even">
 <td class="gt_row gt_left" headers="label" style="font-weight: bold">Average weekly sleep duration (calculated)</td>
 <td class="gt_row gt_center" headers="n">24</td>
-<td class="gt_row gt_center" headers="stat_0">27,429 (25757s (~7.15 hours), 31093s (~8.64 hours))</td>
+<td class="gt_row gt_center" headers="stat_0">27,429 (25757s (~7.15 hours), 30836s (~8.57 hours))</td>
 </tr>
 <tr class="odd">
 <td class="gt_row gt_left" headers="label" style="font-weight: bold">Average number of minutes outside (calculated)</td>
@@ -5268,7 +5258,7 @@ height: 0px !important;
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">gtsave</span>(<span class="fu">table_chronotype</span>(chronotype) <span class="sc">|&gt;</span> <span class="fu">as_gt</span>(), <span class="at">filename =</span> <span class="st">&quot;../output/tables/table_chronotype.png&quot;</span>, <span class="at">vwidth =</span> <span class="dv">800</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>file:////var/folders/9p/326_k3kx43qbn_cyl1rqfhb00000gn/T//RtmpqmZAbH/file109462ab8e8.html screenshot completed</code></pre>
+<pre><code>file:////var/folders/9p/326_k3kx43qbn_cyl1rqfhb00000gn/T//RtmpnNsNyx/file12c9e42d8be17.html screenshot completed</code></pre>
 </div>
 </div>
 <section id="export" class="level3">
@@ -5783,214 +5773,204 @@ height: 0px !important;
 <span id="cb20-37"><a href="#cb20-37" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;filefinder&quot;</span>,</span>
 <span id="cb20-38"><a href="#cb20-38" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;general_parameters&quot;</span>,</span>
 <span id="cb20-39"><a href="#cb20-39" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;coltype_checker&quot;</span>,</span>
-<span id="cb20-40"><a href="#cb20-40" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;tables&quot;</span></span>
-<span id="cb20-41"><a href="#cb20-41" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> <span class="fu">walk</span>(\(x) <span class="fu">source</span>(<span class="fu">paste0</span>(remote, x, <span class="st">&quot;.R&quot;</span>)))</span>
-<span id="cb20-42"><a href="#cb20-42" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb20-43"><a href="#cb20-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-44"><a href="#cb20-44" aria-hidden="true" tabindex="-1"></a>#calculate mctq</span>
-<span id="cb20-45"><a href="#cb20-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-48"><a href="#cb20-48" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb20-49"><a href="#cb20-49" aria-hidden="true" tabindex="-1"></a><span class="co">#collect codebook</span></span>
-<span id="cb20-50"><a href="#cb20-50" aria-hidden="true" tabindex="-1"></a>codebook <span class="ot">&lt;-</span> </span>
-<span id="cb20-51"><a href="#cb20-51" aria-hidden="true" tabindex="-1"></a>  <span class="fu">prepare_codebook</span>(<span class="st">&quot;MeLiDosIntakeQuestionnaires_DataDictionary_2024-10-16.csv&quot;</span>)</span>
-<span id="cb20-52"><a href="#cb20-52" aria-hidden="true" tabindex="-1"></a><span class="co">#collect files</span></span>
-<span id="cb20-53"><a href="#cb20-53" aria-hidden="true" tabindex="-1"></a>files <span class="ot">&lt;-</span> <span class="fu">filefinder</span>(<span class="st">&quot;chronotype&quot;</span>,<span class="at">individual =</span> <span class="cn">TRUE</span>, <span class="at">negate =</span> <span class="st">&quot;lookup|MEQ&quot;</span>)</span>
-<span id="cb20-54"><a href="#cb20-54" aria-hidden="true" tabindex="-1"></a><span class="co">#import files</span></span>
-<span id="cb20-55"><a href="#cb20-55" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(files, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">record_id =</span> redcap_survey_identifier)</span>
-<span id="cb20-56"><a href="#cb20-56" aria-hidden="true" tabindex="-1"></a><span class="co">#check column types</span></span>
-<span id="cb20-57"><a href="#cb20-57" aria-hidden="true" tabindex="-1"></a>coltype_check <span class="ot">&lt;-</span> <span class="fu">coltype_checker</span>(codebook, data)</span>
-<span id="cb20-58"><a href="#cb20-58" aria-hidden="true" tabindex="-1"></a>coltype_check<span class="sc">$</span>details <span class="sc">|&gt;</span> <span class="fu">gt</span>()</span>
-<span id="cb20-59"><a href="#cb20-59" aria-hidden="true" tabindex="-1"></a><span class="co">#collect relevant columns</span></span>
-<span id="cb20-60"><a href="#cb20-60" aria-hidden="true" tabindex="-1"></a>relevant_columns <span class="ot">&lt;-</span> </span>
-<span id="cb20-61"><a href="#cb20-61" aria-hidden="true" tabindex="-1"></a>  coltype_check<span class="sc">$</span>details <span class="sc">|&gt;</span> </span>
-<span id="cb20-62"><a href="#cb20-62" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(col)</span>
-<span id="cb20-63"><a href="#cb20-63" aria-hidden="true" tabindex="-1"></a><span class="co">#select relevant columns</span></span>
-<span id="cb20-64"><a href="#cb20-64" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="fu">any_of</span>(relevant_columns))</span>
-<span id="cb20-65"><a href="#cb20-65" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb20-66"><a href="#cb20-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-67"><a href="#cb20-67" aria-hidden="true" tabindex="-1"></a>Some participants indicated that they are ready to sleep before going to bed. In the way the questionnaire is analysed, this has to be after they go to bed. Thus we will take the later time in both cases (i.e., if bedtime is later then ready to sleep, we will use this).</span>
-<span id="cb20-68"><a href="#cb20-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-71"><a href="#cb20-71" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb20-72"><a href="#cb20-72" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
-<span id="cb20-73"><a href="#cb20-73" aria-hidden="true" tabindex="-1"></a> data <span class="sc">%&gt;%</span></span>
-<span id="cb20-74"><a href="#cb20-74" aria-hidden="true" tabindex="-1"></a> <span class="fu">pivot_longer</span>(</span>
-<span id="cb20-75"><a href="#cb20-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">contains</span>(<span class="fu">c</span>(<span class="st">&quot;ready_sleep_&quot;</span>, <span class="st">&quot;bedtime&quot;</span>)),</span>
-<span id="cb20-76"><a href="#cb20-76" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="fu">c</span>(<span class="st">&quot;.value&quot;</span>, <span class="st">&quot;context&quot;</span>),</span>
-<span id="cb20-77"><a href="#cb20-77" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_pattern =</span> <span class="st">&quot;^(mctq_bedtime|mctq_ready_sleep)_(.*)$&quot;</span></span>
-<span id="cb20-78"><a href="#cb20-78" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb20-79"><a href="#cb20-79" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb20-80"><a href="#cb20-80" aria-hidden="true" tabindex="-1"></a>    <span class="at">mctq_ready_sleep =</span> <span class="fu">pmax</span>(mctq_bedtime, mctq_ready_sleep),</span>
-<span id="cb20-81"><a href="#cb20-81" aria-hidden="true" tabindex="-1"></a>    <span class="at">mctq_nr_workdays_adj =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(mctq_nr_workdays), <span class="dv">5</span>, mctq_nr_workdays)</span>
-<span id="cb20-82"><a href="#cb20-82" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb20-83"><a href="#cb20-83" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> context, <span class="at">values_from =</span> <span class="fu">c</span>(mctq_bedtime, mctq_ready_sleep))</span>
-<span id="cb20-84"><a href="#cb20-84" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb20-85"><a href="#cb20-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-86"><a href="#cb20-86" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Note: participants that indicated no number of regular work days, but that still provided numbers for work- and free days will be calculated as 5 work days and 2 free days.</span></span>
+<span id="cb20-40"><a href="#cb20-40" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;mctq_bedsleeptimes&quot;</span>,</span>
+<span id="cb20-41"><a href="#cb20-41" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;tables&quot;</span></span>
+<span id="cb20-42"><a href="#cb20-42" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> <span class="fu">walk</span>(\(x) <span class="fu">source</span>(<span class="fu">paste0</span>(remote, x, <span class="st">&quot;.R&quot;</span>)))</span>
+<span id="cb20-43"><a href="#cb20-43" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb20-44"><a href="#cb20-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-45"><a href="#cb20-45" aria-hidden="true" tabindex="-1"></a>#calculate mctq</span>
+<span id="cb20-46"><a href="#cb20-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-49"><a href="#cb20-49" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb20-50"><a href="#cb20-50" aria-hidden="true" tabindex="-1"></a><span class="co">#collect codebook</span></span>
+<span id="cb20-51"><a href="#cb20-51" aria-hidden="true" tabindex="-1"></a>codebook <span class="ot">&lt;-</span> </span>
+<span id="cb20-52"><a href="#cb20-52" aria-hidden="true" tabindex="-1"></a>  <span class="fu">prepare_codebook</span>(<span class="st">&quot;MeLiDosIntakeQuestionnaires_DataDictionary_2024-10-16.csv&quot;</span>)</span>
+<span id="cb20-53"><a href="#cb20-53" aria-hidden="true" tabindex="-1"></a><span class="co">#collect files</span></span>
+<span id="cb20-54"><a href="#cb20-54" aria-hidden="true" tabindex="-1"></a>files <span class="ot">&lt;-</span> <span class="fu">filefinder</span>(<span class="st">&quot;chronotype&quot;</span>,<span class="at">individual =</span> <span class="cn">TRUE</span>, <span class="at">negate =</span> <span class="st">&quot;lookup|MEQ&quot;</span>)</span>
+<span id="cb20-55"><a href="#cb20-55" aria-hidden="true" tabindex="-1"></a><span class="co">#import files</span></span>
+<span id="cb20-56"><a href="#cb20-56" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(files, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">record_id =</span> redcap_survey_identifier)</span>
+<span id="cb20-57"><a href="#cb20-57" aria-hidden="true" tabindex="-1"></a><span class="co">#check column types</span></span>
+<span id="cb20-58"><a href="#cb20-58" aria-hidden="true" tabindex="-1"></a>coltype_check <span class="ot">&lt;-</span> <span class="fu">coltype_checker</span>(codebook, data)</span>
+<span id="cb20-59"><a href="#cb20-59" aria-hidden="true" tabindex="-1"></a>coltype_check<span class="sc">$</span>details <span class="sc">|&gt;</span> <span class="fu">gt</span>()</span>
+<span id="cb20-60"><a href="#cb20-60" aria-hidden="true" tabindex="-1"></a><span class="co">#collect relevant columns</span></span>
+<span id="cb20-61"><a href="#cb20-61" aria-hidden="true" tabindex="-1"></a>relevant_columns <span class="ot">&lt;-</span> </span>
+<span id="cb20-62"><a href="#cb20-62" aria-hidden="true" tabindex="-1"></a>  coltype_check<span class="sc">$</span>details <span class="sc">|&gt;</span> </span>
+<span id="cb20-63"><a href="#cb20-63" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(col)</span>
+<span id="cb20-64"><a href="#cb20-64" aria-hidden="true" tabindex="-1"></a><span class="co">#select relevant columns</span></span>
+<span id="cb20-65"><a href="#cb20-65" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="fu">any_of</span>(relevant_columns))</span>
+<span id="cb20-66"><a href="#cb20-66" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb20-67"><a href="#cb20-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-68"><a href="#cb20-68" aria-hidden="true" tabindex="-1"></a>In case participants provide a later bed time than sleep time, bedtimes are used.</span>
+<span id="cb20-69"><a href="#cb20-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-72"><a href="#cb20-72" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb20-73"><a href="#cb20-73" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">mctq_bedsleeptimes</span>(data)</span>
+<span id="cb20-74"><a href="#cb20-74" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb20-75"><a href="#cb20-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-76"><a href="#cb20-76" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Note: participants that indicated no number of regular work days, but that still provided numbers for work- and free days will be calculated as 5 work days and 2 free days.</span></span>
+<span id="cb20-77"><a href="#cb20-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-80"><a href="#cb20-80" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb20-81"><a href="#cb20-81" aria-hidden="true" tabindex="-1"></a><span class="co">#reorder variables, remove mctq variable, recode falling asleep to minutes</span></span>
+<span id="cb20-82"><a href="#cb20-82" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> </span>
+<span id="cb20-83"><a href="#cb20-83" aria-hidden="true" tabindex="-1"></a>  data <span class="sc">|&gt;</span> </span>
+<span id="cb20-84"><a href="#cb20-84" aria-hidden="true" tabindex="-1"></a>  <span class="fu">relocate</span>(<span class="fu">any_of</span>(codebook<span class="sc">$</span><span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb20-85"><a href="#cb20-85" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename_with</span>(\(x) <span class="fu">str_remove</span>(x, <span class="st">&quot;mctq_&quot;</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb20-86"><a href="#cb20-86" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">contains</span>(<span class="st">&quot;fall_sleep&quot;</span>), <span class="sc">~</span><span class="fu">as.duration</span>(.x<span class="sc">*</span><span class="dv">60</span>)))</span>
 <span id="cb20-87"><a href="#cb20-87" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-90"><a href="#cb20-90" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb20-91"><a href="#cb20-91" aria-hidden="true" tabindex="-1"></a><span class="co">#reorder variables, remove mctq variable, recode falling asleep to minutes</span></span>
-<span id="cb20-92"><a href="#cb20-92" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> </span>
-<span id="cb20-93"><a href="#cb20-93" aria-hidden="true" tabindex="-1"></a>  data <span class="sc">|&gt;</span> </span>
-<span id="cb20-94"><a href="#cb20-94" aria-hidden="true" tabindex="-1"></a>  <span class="fu">relocate</span>(<span class="fu">any_of</span>(codebook<span class="sc">$</span><span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb20-95"><a href="#cb20-95" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename_with</span>(\(x) <span class="fu">str_remove</span>(x, <span class="st">&quot;mctq_&quot;</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb20-96"><a href="#cb20-96" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">contains</span>(<span class="st">&quot;fall_sleep&quot;</span>), <span class="sc">~</span><span class="fu">as.duration</span>(.x<span class="sc">*</span><span class="dv">60</span>)))</span>
-<span id="cb20-97"><a href="#cb20-97" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-98"><a href="#cb20-98" aria-hidden="true" tabindex="-1"></a><span class="co">#label variables</span></span>
-<span id="cb20-99"><a href="#cb20-99" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
-<span id="cb20-100"><a href="#cb20-100" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> </span>
-<span id="cb20-101"><a href="#cb20-101" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_radio_factors</span>(codebook <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">&quot;mctq_&quot;</span>)), </span>
-<span id="cb20-102"><a href="#cb20-102" aria-hidden="true" tabindex="-1"></a>                    <span class="at">var_col =</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>, </span>
-<span id="cb20-103"><a href="#cb20-103" aria-hidden="true" tabindex="-1"></a>                    <span class="at">type_col =</span> <span class="st">`</span><span class="at">Field Type</span><span class="st">`</span>,</span>
-<span id="cb20-104"><a href="#cb20-104" aria-hidden="true" tabindex="-1"></a>                    <span class="at">levels_col =</span> <span class="st">`</span><span class="at">Choices, Calculations, OR Slider Labels</span><span class="st">`</span></span>
-<span id="cb20-105"><a href="#cb20-105" aria-hidden="true" tabindex="-1"></a>                    ) <span class="sc">|&gt;</span> </span>
-<span id="cb20-106"><a href="#cb20-106" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_col_labels</span>(codebook <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">&quot;mctq_&quot;</span>)), </span>
-<span id="cb20-107"><a href="#cb20-107" aria-hidden="true" tabindex="-1"></a>                 <span class="at">var_col =</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>, <span class="at">label_col =</span> <span class="st">`</span><span class="at">Field Label</span><span class="st">`</span>)</span>
-<span id="cb20-108"><a href="#cb20-108" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb20-109"><a href="#cb20-109" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-112"><a href="#cb20-112" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb20-113"><a href="#cb20-113" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> </span>
-<span id="cb20-114"><a href="#cb20-114" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span> </span>
-<span id="cb20-115"><a href="#cb20-115" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(</span>
-<span id="cb20-116"><a href="#cb20-116" aria-hidden="true" tabindex="-1"></a>    <span class="at">so_w =</span> <span class="fu">so</span>(ready_sleep_work, fall_sleep_work),</span>
-<span id="cb20-117"><a href="#cb20-117" aria-hidden="true" tabindex="-1"></a>    <span class="at">so_f =</span> <span class="fu">so</span>(ready_sleep_free, fall_sleep_free),</span>
-<span id="cb20-118"><a href="#cb20-118" aria-hidden="true" tabindex="-1"></a>    <span class="at">sd_w =</span> <span class="fu">sdu</span>(so_w, wake_time_work),</span>
-<span id="cb20-119"><a href="#cb20-119" aria-hidden="true" tabindex="-1"></a>    <span class="at">sd_f =</span> <span class="fu">sdu</span>(so_f, wake_time_free),</span>
-<span id="cb20-120"><a href="#cb20-120" aria-hidden="true" tabindex="-1"></a>    <span class="at">msw =</span> <span class="fu">msl</span>(so_w, sd_w),</span>
-<span id="cb20-121"><a href="#cb20-121" aria-hidden="true" tabindex="-1"></a>    <span class="at">msf =</span> <span class="fu">msl</span>(so_f, sd_f),</span>
-<span id="cb20-122"><a href="#cb20-122" aria-hidden="true" tabindex="-1"></a>    <span class="at">sd_week =</span> <span class="fu">sd_week</span>(sd_w, sd_f, nr_workdays_adj),</span>
-<span id="cb20-123"><a href="#cb20-123" aria-hidden="true" tabindex="-1"></a>    <span class="at">msf_sc =</span> <span class="fu">msf_sc</span>(msf, sd_w, sd_f, sd_week, <span class="at">alarm_f =</span> <span class="fu">rep</span>(<span class="cn">FALSE</span>, <span class="fu">n</span>())),</span>
-<span id="cb20-124"><a href="#cb20-124" aria-hidden="true" tabindex="-1"></a>    <span class="at">sjl =</span> <span class="fu">sjl</span>(msw, msf, <span class="at">abs =</span> <span class="cn">FALSE</span>),</span>
-<span id="cb20-125"><a href="#cb20-125" aria-hidden="true" tabindex="-1"></a>  <span class="at">.before =</span> <span class="dv">2</span>,</span>
-<span id="cb20-126"><a href="#cb20-126" aria-hidden="true" tabindex="-1"></a>    <span class="at">outdoor =</span> ((outdoor_work_calc <span class="sc">*</span> nr_workdays_adj) <span class="sc">+</span> (outdoor_free_calc<span class="sc">*</span> (<span class="dv">7</span><span class="sc">-</span>nr_workdays_adj))) <span class="sc">/</span> <span class="dv">7</span></span>
-<span id="cb20-127"><a href="#cb20-127" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb20-128"><a href="#cb20-128" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-129"><a href="#cb20-129" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> data <span class="sc">|&gt;</span> <span class="fu">select</span>(record_id<span class="sc">:</span>outdoor)</span>
-<span id="cb20-130"><a href="#cb20-130" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb20-131"><a href="#cb20-131" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Note: Participants who indicated they use an alarm clock on free days (alarm_free) cannot be used for MCTQ calculation. In this overview, this behavior is overwritten by setting the alarm_f parameter to FALSE. For formal analysis, these must be removed.</span></span>
-<span id="cb20-132"><a href="#cb20-132" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-133"><a href="#cb20-133" aria-hidden="true" tabindex="-1"></a><span class="fu">## meq</span></span>
-<span id="cb20-134"><a href="#cb20-134" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-137"><a href="#cb20-137" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb20-138"><a href="#cb20-138" aria-hidden="true" tabindex="-1"></a><span class="co">#collect files</span></span>
-<span id="cb20-139"><a href="#cb20-139" aria-hidden="true" tabindex="-1"></a>files <span class="ot">&lt;-</span> <span class="fu">filefinder</span>(<span class="st">&quot;chronotype&quot;</span>,<span class="at">individual =</span> <span class="cn">TRUE</span>, <span class="at">negate =</span> <span class="st">&quot;lookup|MCTQ&quot;</span>)</span>
-<span id="cb20-140"><a href="#cb20-140" aria-hidden="true" tabindex="-1"></a><span class="co">#import files</span></span>
-<span id="cb20-141"><a href="#cb20-141" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
-<span id="cb20-142"><a href="#cb20-142" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(files, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb20-143"><a href="#cb20-143" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fill</span>(redcap_survey_identifier) <span class="sc">|&gt;</span> </span>
-<span id="cb20-144"><a href="#cb20-144" aria-hidden="true" tabindex="-1"></a>    <span class="fu">drop_na</span>(redcap_repeat_instance) <span class="sc">|&gt;</span> </span>
-<span id="cb20-145"><a href="#cb20-145" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">record_id =</span> redcap_survey_identifier)</span>
-<span id="cb20-146"><a href="#cb20-146" aria-hidden="true" tabindex="-1"></a><span class="co">#check column types</span></span>
-<span id="cb20-147"><a href="#cb20-147" aria-hidden="true" tabindex="-1"></a>coltype_check <span class="ot">&lt;-</span> <span class="fu">coltype_checker</span>(codebook, data)</span>
-<span id="cb20-148"><a href="#cb20-148" aria-hidden="true" tabindex="-1"></a>coltype_check<span class="sc">$</span>details <span class="sc">|&gt;</span> <span class="fu">gt</span>()</span>
-<span id="cb20-149"><a href="#cb20-149" aria-hidden="true" tabindex="-1"></a><span class="co">#collect relevant columns</span></span>
-<span id="cb20-150"><a href="#cb20-150" aria-hidden="true" tabindex="-1"></a><span class="co">#select relevant columns</span></span>
-<span id="cb20-151"><a href="#cb20-151" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="sc">-</span>redcap_repeat_instance, <span class="sc">-</span>redcap_repeat_instrument)</span>
-<span id="cb20-152"><a href="#cb20-152" aria-hidden="true" tabindex="-1"></a><span class="co">#label variables</span></span>
-<span id="cb20-153"><a href="#cb20-153" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
-<span id="cb20-154"><a href="#cb20-154" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> </span>
-<span id="cb20-155"><a href="#cb20-155" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_radio_factors</span>(codebook <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">&quot;mctq_&quot;</span>)), </span>
-<span id="cb20-156"><a href="#cb20-156" aria-hidden="true" tabindex="-1"></a>                    <span class="at">var_col =</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>, </span>
-<span id="cb20-157"><a href="#cb20-157" aria-hidden="true" tabindex="-1"></a>                    <span class="at">type_col =</span> <span class="st">`</span><span class="at">Field Type</span><span class="st">`</span>,</span>
-<span id="cb20-158"><a href="#cb20-158" aria-hidden="true" tabindex="-1"></a>                    <span class="at">levels_col =</span> <span class="st">`</span><span class="at">Choices, Calculations, OR Slider Labels</span><span class="st">`</span></span>
-<span id="cb20-159"><a href="#cb20-159" aria-hidden="true" tabindex="-1"></a>                    ) <span class="sc">|&gt;</span> </span>
-<span id="cb20-160"><a href="#cb20-160" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_col_labels</span>(codebook <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">&quot;mctq_&quot;</span>)), </span>
-<span id="cb20-161"><a href="#cb20-161" aria-hidden="true" tabindex="-1"></a>                 <span class="at">var_col =</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>, <span class="at">label_col =</span> <span class="st">`</span><span class="at">Field Label</span><span class="st">`</span>)</span>
-<span id="cb20-162"><a href="#cb20-162" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb20-163"><a href="#cb20-163" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-166"><a href="#cb20-166" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb20-167"><a href="#cb20-167" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> </span>
-<span id="cb20-168"><a href="#cb20-168" aria-hidden="true" tabindex="-1"></a>  data <span class="sc">|&gt;</span> </span>
-<span id="cb20-169"><a href="#cb20-169" aria-hidden="true" tabindex="-1"></a>  <span class="co">#invert scores</span></span>
-<span id="cb20-170"><a href="#cb20-170" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">c</span>(<span class="st">&quot;meq_freewake&quot;</span>, <span class="st">&quot;meq_freesleep&quot;</span>, <span class="st">&quot;meq_peak_perf&quot;</span>, <span class="st">&quot;meq_perceived_chron&quot;</span>),</span>
+<span id="cb20-88"><a href="#cb20-88" aria-hidden="true" tabindex="-1"></a><span class="co">#label variables</span></span>
+<span id="cb20-89"><a href="#cb20-89" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
+<span id="cb20-90"><a href="#cb20-90" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> </span>
+<span id="cb20-91"><a href="#cb20-91" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_radio_factors</span>(codebook <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">&quot;mctq_&quot;</span>)), </span>
+<span id="cb20-92"><a href="#cb20-92" aria-hidden="true" tabindex="-1"></a>                    <span class="at">var_col =</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>, </span>
+<span id="cb20-93"><a href="#cb20-93" aria-hidden="true" tabindex="-1"></a>                    <span class="at">type_col =</span> <span class="st">`</span><span class="at">Field Type</span><span class="st">`</span>,</span>
+<span id="cb20-94"><a href="#cb20-94" aria-hidden="true" tabindex="-1"></a>                    <span class="at">levels_col =</span> <span class="st">`</span><span class="at">Choices, Calculations, OR Slider Labels</span><span class="st">`</span></span>
+<span id="cb20-95"><a href="#cb20-95" aria-hidden="true" tabindex="-1"></a>                    ) <span class="sc">|&gt;</span> </span>
+<span id="cb20-96"><a href="#cb20-96" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_col_labels</span>(codebook <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">&quot;mctq_&quot;</span>)), </span>
+<span id="cb20-97"><a href="#cb20-97" aria-hidden="true" tabindex="-1"></a>                 <span class="at">var_col =</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>, <span class="at">label_col =</span> <span class="st">`</span><span class="at">Field Label</span><span class="st">`</span>)</span>
+<span id="cb20-98"><a href="#cb20-98" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb20-99"><a href="#cb20-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-102"><a href="#cb20-102" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb20-103"><a href="#cb20-103" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> </span>
+<span id="cb20-104"><a href="#cb20-104" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span> </span>
+<span id="cb20-105"><a href="#cb20-105" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(</span>
+<span id="cb20-106"><a href="#cb20-106" aria-hidden="true" tabindex="-1"></a>    <span class="at">so_w =</span> <span class="fu">so</span>(ready_sleep_work, fall_sleep_work),</span>
+<span id="cb20-107"><a href="#cb20-107" aria-hidden="true" tabindex="-1"></a>    <span class="at">so_f =</span> <span class="fu">so</span>(ready_sleep_free, fall_sleep_free),</span>
+<span id="cb20-108"><a href="#cb20-108" aria-hidden="true" tabindex="-1"></a>    <span class="at">sd_w =</span> <span class="fu">sdu</span>(so_w, wake_time_work),</span>
+<span id="cb20-109"><a href="#cb20-109" aria-hidden="true" tabindex="-1"></a>    <span class="at">sd_f =</span> <span class="fu">sdu</span>(so_f, wake_time_free),</span>
+<span id="cb20-110"><a href="#cb20-110" aria-hidden="true" tabindex="-1"></a>    <span class="at">msw =</span> <span class="fu">msl</span>(so_w, sd_w),</span>
+<span id="cb20-111"><a href="#cb20-111" aria-hidden="true" tabindex="-1"></a>    <span class="at">msf =</span> <span class="fu">msl</span>(so_f, sd_f),</span>
+<span id="cb20-112"><a href="#cb20-112" aria-hidden="true" tabindex="-1"></a>    <span class="at">sd_week =</span> <span class="fu">sd_week</span>(sd_w, sd_f, nr_workdays_adj),</span>
+<span id="cb20-113"><a href="#cb20-113" aria-hidden="true" tabindex="-1"></a>    <span class="at">msf_sc =</span> <span class="fu">msf_sc</span>(msf, sd_w, sd_f, sd_week, <span class="at">alarm_f =</span> <span class="fu">rep</span>(<span class="cn">FALSE</span>, <span class="fu">n</span>())),</span>
+<span id="cb20-114"><a href="#cb20-114" aria-hidden="true" tabindex="-1"></a>    <span class="at">sjl =</span> <span class="fu">sjl</span>(msw, msf, <span class="at">abs =</span> <span class="cn">FALSE</span>),</span>
+<span id="cb20-115"><a href="#cb20-115" aria-hidden="true" tabindex="-1"></a>  <span class="at">.before =</span> <span class="dv">2</span>,</span>
+<span id="cb20-116"><a href="#cb20-116" aria-hidden="true" tabindex="-1"></a>    <span class="at">outdoor =</span> ((outdoor_work_calc <span class="sc">*</span> nr_workdays_adj) <span class="sc">+</span> (outdoor_free_calc<span class="sc">*</span> (<span class="dv">7</span><span class="sc">-</span>nr_workdays_adj))) <span class="sc">/</span> <span class="dv">7</span></span>
+<span id="cb20-117"><a href="#cb20-117" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb20-118"><a href="#cb20-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-119"><a href="#cb20-119" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> data <span class="sc">|&gt;</span> <span class="fu">select</span>(record_id<span class="sc">:</span>outdoor)</span>
+<span id="cb20-120"><a href="#cb20-120" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb20-121"><a href="#cb20-121" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Note: Participants who indicated they use an alarm clock on free days (alarm_free) cannot be used for MCTQ calculation. In this overview, this behavior is overwritten by setting the alarm_f parameter to FALSE. For formal analysis, these must be removed.</span></span>
+<span id="cb20-122"><a href="#cb20-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-123"><a href="#cb20-123" aria-hidden="true" tabindex="-1"></a><span class="fu">## meq</span></span>
+<span id="cb20-124"><a href="#cb20-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-127"><a href="#cb20-127" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb20-128"><a href="#cb20-128" aria-hidden="true" tabindex="-1"></a><span class="co">#collect files</span></span>
+<span id="cb20-129"><a href="#cb20-129" aria-hidden="true" tabindex="-1"></a>files <span class="ot">&lt;-</span> <span class="fu">filefinder</span>(<span class="st">&quot;chronotype&quot;</span>,<span class="at">individual =</span> <span class="cn">TRUE</span>, <span class="at">negate =</span> <span class="st">&quot;lookup|MCTQ&quot;</span>)</span>
+<span id="cb20-130"><a href="#cb20-130" aria-hidden="true" tabindex="-1"></a><span class="co">#import files</span></span>
+<span id="cb20-131"><a href="#cb20-131" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
+<span id="cb20-132"><a href="#cb20-132" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(files, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb20-133"><a href="#cb20-133" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fill</span>(redcap_survey_identifier) <span class="sc">|&gt;</span> </span>
+<span id="cb20-134"><a href="#cb20-134" aria-hidden="true" tabindex="-1"></a>    <span class="fu">drop_na</span>(redcap_repeat_instance) <span class="sc">|&gt;</span> </span>
+<span id="cb20-135"><a href="#cb20-135" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">record_id =</span> redcap_survey_identifier)</span>
+<span id="cb20-136"><a href="#cb20-136" aria-hidden="true" tabindex="-1"></a><span class="co">#check column types</span></span>
+<span id="cb20-137"><a href="#cb20-137" aria-hidden="true" tabindex="-1"></a>coltype_check <span class="ot">&lt;-</span> <span class="fu">coltype_checker</span>(codebook, data)</span>
+<span id="cb20-138"><a href="#cb20-138" aria-hidden="true" tabindex="-1"></a>coltype_check<span class="sc">$</span>details <span class="sc">|&gt;</span> <span class="fu">gt</span>()</span>
+<span id="cb20-139"><a href="#cb20-139" aria-hidden="true" tabindex="-1"></a><span class="co">#collect relevant columns</span></span>
+<span id="cb20-140"><a href="#cb20-140" aria-hidden="true" tabindex="-1"></a><span class="co">#select relevant columns</span></span>
+<span id="cb20-141"><a href="#cb20-141" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="sc">-</span>redcap_repeat_instance, <span class="sc">-</span>redcap_repeat_instrument)</span>
+<span id="cb20-142"><a href="#cb20-142" aria-hidden="true" tabindex="-1"></a><span class="co">#label variables</span></span>
+<span id="cb20-143"><a href="#cb20-143" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
+<span id="cb20-144"><a href="#cb20-144" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> </span>
+<span id="cb20-145"><a href="#cb20-145" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_radio_factors</span>(codebook <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">&quot;mctq_&quot;</span>)), </span>
+<span id="cb20-146"><a href="#cb20-146" aria-hidden="true" tabindex="-1"></a>                    <span class="at">var_col =</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>, </span>
+<span id="cb20-147"><a href="#cb20-147" aria-hidden="true" tabindex="-1"></a>                    <span class="at">type_col =</span> <span class="st">`</span><span class="at">Field Type</span><span class="st">`</span>,</span>
+<span id="cb20-148"><a href="#cb20-148" aria-hidden="true" tabindex="-1"></a>                    <span class="at">levels_col =</span> <span class="st">`</span><span class="at">Choices, Calculations, OR Slider Labels</span><span class="st">`</span></span>
+<span id="cb20-149"><a href="#cb20-149" aria-hidden="true" tabindex="-1"></a>                    ) <span class="sc">|&gt;</span> </span>
+<span id="cb20-150"><a href="#cb20-150" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_col_labels</span>(codebook <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span> <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">&quot;mctq_&quot;</span>)), </span>
+<span id="cb20-151"><a href="#cb20-151" aria-hidden="true" tabindex="-1"></a>                 <span class="at">var_col =</span> <span class="st">`</span><span class="at">Variable / Field Name</span><span class="st">`</span>, <span class="at">label_col =</span> <span class="st">`</span><span class="at">Field Label</span><span class="st">`</span>)</span>
+<span id="cb20-152"><a href="#cb20-152" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb20-153"><a href="#cb20-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-156"><a href="#cb20-156" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb20-157"><a href="#cb20-157" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> </span>
+<span id="cb20-158"><a href="#cb20-158" aria-hidden="true" tabindex="-1"></a>  data <span class="sc">|&gt;</span> </span>
+<span id="cb20-159"><a href="#cb20-159" aria-hidden="true" tabindex="-1"></a>  <span class="co">#invert scores</span></span>
+<span id="cb20-160"><a href="#cb20-160" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">c</span>(<span class="st">&quot;meq_freewake&quot;</span>, <span class="st">&quot;meq_freesleep&quot;</span>, <span class="st">&quot;meq_peak_perf&quot;</span>, <span class="st">&quot;meq_perceived_chron&quot;</span>),</span>
+<span id="cb20-161"><a href="#cb20-161" aria-hidden="true" tabindex="-1"></a>         \(x) {</span>
+<span id="cb20-162"><a href="#cb20-162" aria-hidden="true" tabindex="-1"></a>           n_levels <span class="ot">&lt;-</span> <span class="fu">levels</span>(x) <span class="sc">|&gt;</span> <span class="fu">length</span>()</span>
+<span id="cb20-163"><a href="#cb20-163" aria-hidden="true" tabindex="-1"></a>           n_levels <span class="sc">-</span> <span class="fu">as.numeric</span>(x)</span>
+<span id="cb20-164"><a href="#cb20-164" aria-hidden="true" tabindex="-1"></a>         }, <span class="at">.names =</span> <span class="st">&quot;{.col}_scored&quot;</span>),</span>
+<span id="cb20-165"><a href="#cb20-165" aria-hidden="true" tabindex="-1"></a>         <span class="fu">across</span>(<span class="fu">c</span>(<span class="st">&quot;meq_alarm&quot;</span>, <span class="st">&quot;meq_free_bedtime&quot;</span>, <span class="st">&quot;meq_mor_exercise&quot;</span>, <span class="st">&quot;meq_eve_tired&quot;</span>, <span class="st">&quot;meq_delayed_sleep&quot;</span>, <span class="st">&quot;meq_phys_work&quot;</span>, <span class="st">&quot;meq_ideal_week&quot;</span>, <span class="st">&quot;meq_besthour&quot;</span>),</span>
+<span id="cb20-166"><a href="#cb20-166" aria-hidden="true" tabindex="-1"></a>         \(x) {</span>
+<span id="cb20-167"><a href="#cb20-167" aria-hidden="true" tabindex="-1"></a>           n_levels <span class="ot">&lt;-</span> <span class="fu">levels</span>(x) <span class="sc">|&gt;</span> <span class="fu">length</span>()</span>
+<span id="cb20-168"><a href="#cb20-168" aria-hidden="true" tabindex="-1"></a>           n_levels <span class="sc">-</span> <span class="fu">as.numeric</span>(x) <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb20-169"><a href="#cb20-169" aria-hidden="true" tabindex="-1"></a>         }, <span class="at">.names =</span> <span class="st">&quot;{.col}_scored&quot;</span>),</span>
+<span id="cb20-170"><a href="#cb20-170" aria-hidden="true" tabindex="-1"></a>         <span class="fu">across</span>(<span class="fu">c</span>(<span class="st">&quot;meq_wakeupease&quot;</span>, <span class="st">&quot;meq_mor_alert&quot;</span>, <span class="st">&quot;meq_mor_hunger&quot;</span>, <span class="st">&quot;meq_mor_feel&quot;</span>, <span class="st">&quot;meq_shift_conseq&quot;</span>, <span class="st">&quot;meq_eve_exercise&quot;</span>),</span>
 <span id="cb20-171"><a href="#cb20-171" aria-hidden="true" tabindex="-1"></a>         \(x) {</span>
-<span id="cb20-172"><a href="#cb20-172" aria-hidden="true" tabindex="-1"></a>           n_levels <span class="ot">&lt;-</span> <span class="fu">levels</span>(x) <span class="sc">|&gt;</span> <span class="fu">length</span>()</span>
-<span id="cb20-173"><a href="#cb20-173" aria-hidden="true" tabindex="-1"></a>           n_levels <span class="sc">-</span> <span class="fu">as.numeric</span>(x)</span>
-<span id="cb20-174"><a href="#cb20-174" aria-hidden="true" tabindex="-1"></a>         }, <span class="at">.names =</span> <span class="st">&quot;{.col}_scored&quot;</span>),</span>
-<span id="cb20-175"><a href="#cb20-175" aria-hidden="true" tabindex="-1"></a>         <span class="fu">across</span>(<span class="fu">c</span>(<span class="st">&quot;meq_alarm&quot;</span>, <span class="st">&quot;meq_free_bedtime&quot;</span>, <span class="st">&quot;meq_mor_exercise&quot;</span>, <span class="st">&quot;meq_eve_tired&quot;</span>, <span class="st">&quot;meq_delayed_sleep&quot;</span>, <span class="st">&quot;meq_phys_work&quot;</span>, <span class="st">&quot;meq_ideal_week&quot;</span>, <span class="st">&quot;meq_besthour&quot;</span>),</span>
-<span id="cb20-176"><a href="#cb20-176" aria-hidden="true" tabindex="-1"></a>         \(x) {</span>
-<span id="cb20-177"><a href="#cb20-177" aria-hidden="true" tabindex="-1"></a>           n_levels <span class="ot">&lt;-</span> <span class="fu">levels</span>(x) <span class="sc">|&gt;</span> <span class="fu">length</span>()</span>
-<span id="cb20-178"><a href="#cb20-178" aria-hidden="true" tabindex="-1"></a>           n_levels <span class="sc">-</span> <span class="fu">as.numeric</span>(x) <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb20-179"><a href="#cb20-179" aria-hidden="true" tabindex="-1"></a>         }, <span class="at">.names =</span> <span class="st">&quot;{.col}_scored&quot;</span>),</span>
-<span id="cb20-180"><a href="#cb20-180" aria-hidden="true" tabindex="-1"></a>         <span class="fu">across</span>(<span class="fu">c</span>(<span class="st">&quot;meq_wakeupease&quot;</span>, <span class="st">&quot;meq_mor_alert&quot;</span>, <span class="st">&quot;meq_mor_hunger&quot;</span>, <span class="st">&quot;meq_mor_feel&quot;</span>, <span class="st">&quot;meq_shift_conseq&quot;</span>, <span class="st">&quot;meq_eve_exercise&quot;</span>),</span>
-<span id="cb20-181"><a href="#cb20-181" aria-hidden="true" tabindex="-1"></a>         \(x) {</span>
-<span id="cb20-182"><a href="#cb20-182" aria-hidden="true" tabindex="-1"></a>           <span class="fu">as.numeric</span>(x)</span>
-<span id="cb20-183"><a href="#cb20-183" aria-hidden="true" tabindex="-1"></a>         }, <span class="at">.names =</span> <span class="st">&quot;{.col}_scored&quot;</span>),</span>
-<span id="cb20-184"><a href="#cb20-184" aria-hidden="true" tabindex="-1"></a>         <span class="at">meq_peak_perf_scored =</span> meq_peak_perf_scored<span class="sc">*</span><span class="dv">2</span>,</span>
-<span id="cb20-185"><a href="#cb20-185" aria-hidden="true" tabindex="-1"></a>         <span class="at">meq_eleven_tired_scored =</span> <span class="fu">case_match</span>(meq_eleven_tired,</span>
-<span id="cb20-186"><a href="#cb20-186" aria-hidden="true" tabindex="-1"></a>                                             <span class="st">&quot;Not at all tired&quot;</span> <span class="sc">~</span> <span class="dv">0</span>,</span>
-<span id="cb20-187"><a href="#cb20-187" aria-hidden="true" tabindex="-1"></a>                                             <span class="st">&quot;A little tired&quot;</span> <span class="sc">~</span> <span class="dv">2</span>,</span>
-<span id="cb20-188"><a href="#cb20-188" aria-hidden="true" tabindex="-1"></a>                                             <span class="st">&quot;Fairly tired&quot;</span> <span class="sc">~</span> <span class="dv">3</span>,</span>
-<span id="cb20-189"><a href="#cb20-189" aria-hidden="true" tabindex="-1"></a>                                             <span class="st">&quot;Very tired&quot;</span> <span class="sc">~</span> <span class="dv">5</span>),</span>
-<span id="cb20-190"><a href="#cb20-190" aria-hidden="true" tabindex="-1"></a>         <span class="at">meq_perceived_chron_scored =</span> meq_perceived_chron_scored<span class="sc">*</span><span class="dv">2</span></span>
-<span id="cb20-191"><a href="#cb20-191" aria-hidden="true" tabindex="-1"></a>         )</span>
-<span id="cb20-192"><a href="#cb20-192" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-193"><a href="#cb20-193" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-194"><a href="#cb20-194" aria-hidden="true" tabindex="-1"></a>meq_types <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Definitely morning type&quot;</span>, <span class="st">&quot;Moderately morning type&quot;</span>,</span>
-<span id="cb20-195"><a href="#cb20-195" aria-hidden="true" tabindex="-1"></a>               <span class="st">&quot;Intermediate&quot;</span>, <span class="st">&quot;Moderately evening type&quot;</span>,</span>
-<span id="cb20-196"><a href="#cb20-196" aria-hidden="true" tabindex="-1"></a>               <span class="st">&quot;Definitely evening type&quot;</span>)</span>
-<span id="cb20-197"><a href="#cb20-197" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-198"><a href="#cb20-198" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> </span>
-<span id="cb20-199"><a href="#cb20-199" aria-hidden="true" tabindex="-1"></a>  data <span class="sc">|&gt;</span> </span>
-<span id="cb20-200"><a href="#cb20-200" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rowwise</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb20-201"><a href="#cb20-201" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">meq =</span> <span class="fu">sum</span>(<span class="fu">c_across</span>(<span class="fu">contains</span>(<span class="st">&quot;_scored&quot;</span>))),</span>
-<span id="cb20-202"><a href="#cb20-202" aria-hidden="true" tabindex="-1"></a>         <span class="at">meq_type =</span> <span class="fu">case_when</span>(meq <span class="sc">&gt;=</span> <span class="dv">70</span> <span class="sc">~</span> <span class="st">&quot;Definitely morning type&quot;</span>,</span>
-<span id="cb20-203"><a href="#cb20-203" aria-hidden="true" tabindex="-1"></a>                              meq <span class="sc">&gt;=</span> <span class="dv">59</span> <span class="sc">~</span> <span class="st">&quot;Moderately morning type&quot;</span>,</span>
-<span id="cb20-204"><a href="#cb20-204" aria-hidden="true" tabindex="-1"></a>                              meq <span class="sc">&gt;=</span> <span class="dv">42</span> <span class="sc">~</span> <span class="st">&quot;Intermediate&quot;</span>,</span>
-<span id="cb20-205"><a href="#cb20-205" aria-hidden="true" tabindex="-1"></a>                              meq <span class="sc">&gt;=</span> <span class="dv">31</span> <span class="sc">~</span> <span class="st">&quot;Moderately evening type&quot;</span>,</span>
-<span id="cb20-206"><a href="#cb20-206" aria-hidden="true" tabindex="-1"></a>                              meq <span class="sc">&gt;=</span> <span class="dv">16</span> <span class="sc">~</span> <span class="st">&quot;Definitely evening type&quot;</span>,</span>
-<span id="cb20-207"><a href="#cb20-207" aria-hidden="true" tabindex="-1"></a>                              <span class="at">.default =</span> <span class="cn">NA</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb20-208"><a href="#cb20-208" aria-hidden="true" tabindex="-1"></a>           <span class="fu">factor</span>(<span class="at">levels =</span> meq_types)) <span class="sc">|&gt;</span> </span>
-<span id="cb20-209"><a href="#cb20-209" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">contains</span>(<span class="st">&quot;_scored&quot;</span>))</span>
-<span id="cb20-210"><a href="#cb20-210" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-211"><a href="#cb20-211" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(data<span class="sc">$</span>meq, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Morningness-Eveningness-Score (calculated)&quot;</span></span>
-<span id="cb20-212"><a href="#cb20-212" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(data<span class="sc">$</span>meq_type, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;MEQ chronotypes (calculated)&quot;</span></span>
-<span id="cb20-213"><a href="#cb20-213" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-214"><a href="#cb20-214" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb20-215"><a href="#cb20-215" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-216"><a href="#cb20-216" aria-hidden="true" tabindex="-1"></a><span class="fu">## Summarize results</span></span>
-<span id="cb20-217"><a href="#cb20-217" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-220"><a href="#cb20-220" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb20-221"><a href="#cb20-221" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> <span class="fu">left_join</span>(chronotype, data <span class="sc">|&gt;</span> <span class="fu">select</span>(record_id, meq, meq_type), <span class="at">by =</span> <span class="st">&quot;record_id&quot;</span>)</span>
-<span id="cb20-222"><a href="#cb20-222" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> </span>
-<span id="cb20-223"><a href="#cb20-223" aria-hidden="true" tabindex="-1"></a>  chronotype <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">sjl =</span> sjl <span class="sc">|&gt;</span> <span class="fu">as.duration</span>(),</span>
-<span id="cb20-224"><a href="#cb20-224" aria-hidden="true" tabindex="-1"></a>                       <span class="fu">across</span>(<span class="fu">c</span>(so_w, so_f, msw, msf, msf_sc), \(x) <span class="fu">paste</span>(<span class="st">&quot;2000-01-01&quot;</span>, x) <span class="sc">|&gt;</span> <span class="fu">parse_datetime</span>()))</span>
-<span id="cb20-225"><a href="#cb20-225" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>so_w, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep onset on working days (calculated)&quot;</span></span>
-<span id="cb20-226"><a href="#cb20-226" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>so_f, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep onset on free days (calculated)&quot;</span></span>
-<span id="cb20-227"><a href="#cb20-227" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>sd_w, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep duration on working days (calculated)&quot;</span></span>
-<span id="cb20-228"><a href="#cb20-228" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>sd_f, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep duration on free days (calculated)&quot;</span></span>
-<span id="cb20-229"><a href="#cb20-229" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msw, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on working days (calculated)&quot;</span></span>
-<span id="cb20-230"><a href="#cb20-230" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msf, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on free days (calculated)&quot;</span></span>
-<span id="cb20-231"><a href="#cb20-231" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>sd_week, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Average weekly sleep duration (calculated)&quot;</span></span>
-<span id="cb20-232"><a href="#cb20-232" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msf_sc, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on free days, sleep corrected (calculated)&quot;</span></span>
-<span id="cb20-233"><a href="#cb20-233" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>sjl, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Social jetlag (calculated)&quot;</span></span>
-<span id="cb20-234"><a href="#cb20-234" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>outdoor, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Average number of minutes outside (calculated)&quot;</span></span>
-<span id="cb20-235"><a href="#cb20-235" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-236"><a href="#cb20-236" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> chronotype <span class="sc">|&gt;</span> <span class="fu">relocate</span>(meq_type, meq, msf_sc, sjl, <span class="at">.after =</span> record_id)</span>
-<span id="cb20-237"><a href="#cb20-237" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-238"><a href="#cb20-238" aria-hidden="true" tabindex="-1"></a><span class="fu">table_chronotype</span>(chronotype)</span>
-<span id="cb20-239"><a href="#cb20-239" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-240"><a href="#cb20-240" aria-hidden="true" tabindex="-1"></a><span class="fu">gtsave</span>(<span class="fu">table_chronotype</span>(chronotype) <span class="sc">|&gt;</span> <span class="fu">as_gt</span>(), <span class="at">filename =</span> <span class="st">&quot;../output/tables/table_chronotype.png&quot;</span>, <span class="at">vwidth =</span> <span class="dv">800</span>)</span>
-<span id="cb20-241"><a href="#cb20-241" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb20-242"><a href="#cb20-242" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-243"><a href="#cb20-243" aria-hidden="true" tabindex="-1"></a><span class="fu">### Export</span></span>
-<span id="cb20-244"><a href="#cb20-244" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-247"><a href="#cb20-247" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb20-248"><a href="#cb20-248" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> </span>
-<span id="cb20-249"><a href="#cb20-249" aria-hidden="true" tabindex="-1"></a>  chronotype <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">c</span>(so_w, so_f, msw, msf, msf_sc), \(x) x <span class="sc">|&gt;</span> hms<span class="sc">::</span><span class="fu">as_hms</span>()))</span>
-<span id="cb20-250"><a href="#cb20-250" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-251"><a href="#cb20-251" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>so_w, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep onset on working days (calculated)&quot;</span></span>
-<span id="cb20-252"><a href="#cb20-252" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>so_f, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep onset on free days (calculated)&quot;</span></span>
-<span id="cb20-253"><a href="#cb20-253" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msw, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on working days (calculated)&quot;</span></span>
-<span id="cb20-254"><a href="#cb20-254" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msf, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on free days (calculated)&quot;</span></span>
-<span id="cb20-255"><a href="#cb20-255" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msf_sc, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on free days, sleep corrected (calculated)&quot;</span></span>
-<span id="cb20-256"><a href="#cb20-256" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-257"><a href="#cb20-257" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> chronotype <span class="sc">|&gt;</span> <span class="fu">rename</span>(<span class="at">Id =</span> record_id)</span>
-<span id="cb20-258"><a href="#cb20-258" aria-hidden="true" tabindex="-1"></a>path <span class="ot">&lt;-</span> <span class="st">&quot;../data/imported/&quot;</span></span>
-<span id="cb20-259"><a href="#cb20-259" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">dir.exists</span>(path)) <span class="fu">dir.create</span>(path, <span class="at">recursive =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb20-260"><a href="#cb20-260" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(chronotype, <span class="at">file =</span> <span class="st">&quot;../data/imported/chronotype.RData&quot;</span>)</span>
-<span id="cb20-261"><a href="#cb20-261" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-262"><a href="#cb20-262" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-263"><a href="#cb20-263" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb20-172"><a href="#cb20-172" aria-hidden="true" tabindex="-1"></a>           <span class="fu">as.numeric</span>(x)</span>
+<span id="cb20-173"><a href="#cb20-173" aria-hidden="true" tabindex="-1"></a>         }, <span class="at">.names =</span> <span class="st">&quot;{.col}_scored&quot;</span>),</span>
+<span id="cb20-174"><a href="#cb20-174" aria-hidden="true" tabindex="-1"></a>         <span class="at">meq_peak_perf_scored =</span> meq_peak_perf_scored<span class="sc">*</span><span class="dv">2</span>,</span>
+<span id="cb20-175"><a href="#cb20-175" aria-hidden="true" tabindex="-1"></a>         <span class="at">meq_eleven_tired_scored =</span> <span class="fu">case_match</span>(meq_eleven_tired,</span>
+<span id="cb20-176"><a href="#cb20-176" aria-hidden="true" tabindex="-1"></a>                                             <span class="st">&quot;Not at all tired&quot;</span> <span class="sc">~</span> <span class="dv">0</span>,</span>
+<span id="cb20-177"><a href="#cb20-177" aria-hidden="true" tabindex="-1"></a>                                             <span class="st">&quot;A little tired&quot;</span> <span class="sc">~</span> <span class="dv">2</span>,</span>
+<span id="cb20-178"><a href="#cb20-178" aria-hidden="true" tabindex="-1"></a>                                             <span class="st">&quot;Fairly tired&quot;</span> <span class="sc">~</span> <span class="dv">3</span>,</span>
+<span id="cb20-179"><a href="#cb20-179" aria-hidden="true" tabindex="-1"></a>                                             <span class="st">&quot;Very tired&quot;</span> <span class="sc">~</span> <span class="dv">5</span>),</span>
+<span id="cb20-180"><a href="#cb20-180" aria-hidden="true" tabindex="-1"></a>         <span class="at">meq_perceived_chron_scored =</span> meq_perceived_chron_scored<span class="sc">*</span><span class="dv">2</span></span>
+<span id="cb20-181"><a href="#cb20-181" aria-hidden="true" tabindex="-1"></a>         )</span>
+<span id="cb20-182"><a href="#cb20-182" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-183"><a href="#cb20-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-184"><a href="#cb20-184" aria-hidden="true" tabindex="-1"></a>meq_types <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Definitely morning type&quot;</span>, <span class="st">&quot;Moderately morning type&quot;</span>,</span>
+<span id="cb20-185"><a href="#cb20-185" aria-hidden="true" tabindex="-1"></a>               <span class="st">&quot;Intermediate&quot;</span>, <span class="st">&quot;Moderately evening type&quot;</span>,</span>
+<span id="cb20-186"><a href="#cb20-186" aria-hidden="true" tabindex="-1"></a>               <span class="st">&quot;Definitely evening type&quot;</span>)</span>
+<span id="cb20-187"><a href="#cb20-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-188"><a href="#cb20-188" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> </span>
+<span id="cb20-189"><a href="#cb20-189" aria-hidden="true" tabindex="-1"></a>  data <span class="sc">|&gt;</span> </span>
+<span id="cb20-190"><a href="#cb20-190" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rowwise</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb20-191"><a href="#cb20-191" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">meq =</span> <span class="fu">sum</span>(<span class="fu">c_across</span>(<span class="fu">contains</span>(<span class="st">&quot;_scored&quot;</span>))),</span>
+<span id="cb20-192"><a href="#cb20-192" aria-hidden="true" tabindex="-1"></a>         <span class="at">meq_type =</span> <span class="fu">case_when</span>(meq <span class="sc">&gt;=</span> <span class="dv">70</span> <span class="sc">~</span> <span class="st">&quot;Definitely morning type&quot;</span>,</span>
+<span id="cb20-193"><a href="#cb20-193" aria-hidden="true" tabindex="-1"></a>                              meq <span class="sc">&gt;=</span> <span class="dv">59</span> <span class="sc">~</span> <span class="st">&quot;Moderately morning type&quot;</span>,</span>
+<span id="cb20-194"><a href="#cb20-194" aria-hidden="true" tabindex="-1"></a>                              meq <span class="sc">&gt;=</span> <span class="dv">42</span> <span class="sc">~</span> <span class="st">&quot;Intermediate&quot;</span>,</span>
+<span id="cb20-195"><a href="#cb20-195" aria-hidden="true" tabindex="-1"></a>                              meq <span class="sc">&gt;=</span> <span class="dv">31</span> <span class="sc">~</span> <span class="st">&quot;Moderately evening type&quot;</span>,</span>
+<span id="cb20-196"><a href="#cb20-196" aria-hidden="true" tabindex="-1"></a>                              meq <span class="sc">&gt;=</span> <span class="dv">16</span> <span class="sc">~</span> <span class="st">&quot;Definitely evening type&quot;</span>,</span>
+<span id="cb20-197"><a href="#cb20-197" aria-hidden="true" tabindex="-1"></a>                              <span class="at">.default =</span> <span class="cn">NA</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb20-198"><a href="#cb20-198" aria-hidden="true" tabindex="-1"></a>           <span class="fu">factor</span>(<span class="at">levels =</span> meq_types)) <span class="sc">|&gt;</span> </span>
+<span id="cb20-199"><a href="#cb20-199" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">contains</span>(<span class="st">&quot;_scored&quot;</span>))</span>
+<span id="cb20-200"><a href="#cb20-200" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-201"><a href="#cb20-201" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(data<span class="sc">$</span>meq, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Morningness-Eveningness-Score (calculated)&quot;</span></span>
+<span id="cb20-202"><a href="#cb20-202" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(data<span class="sc">$</span>meq_type, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;MEQ chronotypes (calculated)&quot;</span></span>
+<span id="cb20-203"><a href="#cb20-203" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-204"><a href="#cb20-204" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb20-205"><a href="#cb20-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-206"><a href="#cb20-206" aria-hidden="true" tabindex="-1"></a><span class="fu">## Summarize results</span></span>
+<span id="cb20-207"><a href="#cb20-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-210"><a href="#cb20-210" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb20-211"><a href="#cb20-211" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> <span class="fu">left_join</span>(chronotype, data <span class="sc">|&gt;</span> <span class="fu">select</span>(record_id, meq, meq_type), <span class="at">by =</span> <span class="st">&quot;record_id&quot;</span>)</span>
+<span id="cb20-212"><a href="#cb20-212" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> </span>
+<span id="cb20-213"><a href="#cb20-213" aria-hidden="true" tabindex="-1"></a>  chronotype <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">sjl =</span> sjl <span class="sc">|&gt;</span> <span class="fu">as.duration</span>(),</span>
+<span id="cb20-214"><a href="#cb20-214" aria-hidden="true" tabindex="-1"></a>                       <span class="fu">across</span>(<span class="fu">c</span>(so_w, so_f, msw, msf, msf_sc), \(x) <span class="fu">paste</span>(<span class="st">&quot;2000-01-01&quot;</span>, x) <span class="sc">|&gt;</span> <span class="fu">parse_datetime</span>()))</span>
+<span id="cb20-215"><a href="#cb20-215" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>so_w, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep onset on working days (calculated)&quot;</span></span>
+<span id="cb20-216"><a href="#cb20-216" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>so_f, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep onset on free days (calculated)&quot;</span></span>
+<span id="cb20-217"><a href="#cb20-217" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>sd_w, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep duration on working days (calculated)&quot;</span></span>
+<span id="cb20-218"><a href="#cb20-218" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>sd_f, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep duration on free days (calculated)&quot;</span></span>
+<span id="cb20-219"><a href="#cb20-219" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msw, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on working days (calculated)&quot;</span></span>
+<span id="cb20-220"><a href="#cb20-220" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msf, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on free days (calculated)&quot;</span></span>
+<span id="cb20-221"><a href="#cb20-221" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>sd_week, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Average weekly sleep duration (calculated)&quot;</span></span>
+<span id="cb20-222"><a href="#cb20-222" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msf_sc, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on free days, sleep corrected (calculated)&quot;</span></span>
+<span id="cb20-223"><a href="#cb20-223" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>sjl, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Social jetlag (calculated)&quot;</span></span>
+<span id="cb20-224"><a href="#cb20-224" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>outdoor, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Average number of minutes outside (calculated)&quot;</span></span>
+<span id="cb20-225"><a href="#cb20-225" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-226"><a href="#cb20-226" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> chronotype <span class="sc">|&gt;</span> <span class="fu">relocate</span>(meq_type, meq, msf_sc, sjl, <span class="at">.after =</span> record_id)</span>
+<span id="cb20-227"><a href="#cb20-227" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-228"><a href="#cb20-228" aria-hidden="true" tabindex="-1"></a><span class="fu">table_chronotype</span>(chronotype)</span>
+<span id="cb20-229"><a href="#cb20-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-230"><a href="#cb20-230" aria-hidden="true" tabindex="-1"></a><span class="fu">gtsave</span>(<span class="fu">table_chronotype</span>(chronotype) <span class="sc">|&gt;</span> <span class="fu">as_gt</span>(), <span class="at">filename =</span> <span class="st">&quot;../output/tables/table_chronotype.png&quot;</span>, <span class="at">vwidth =</span> <span class="dv">800</span>)</span>
+<span id="cb20-231"><a href="#cb20-231" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb20-232"><a href="#cb20-232" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-233"><a href="#cb20-233" aria-hidden="true" tabindex="-1"></a><span class="fu">### Export</span></span>
+<span id="cb20-234"><a href="#cb20-234" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-237"><a href="#cb20-237" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb20-238"><a href="#cb20-238" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> </span>
+<span id="cb20-239"><a href="#cb20-239" aria-hidden="true" tabindex="-1"></a>  chronotype <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">c</span>(so_w, so_f, msw, msf, msf_sc), \(x) x <span class="sc">|&gt;</span> hms<span class="sc">::</span><span class="fu">as_hms</span>()))</span>
+<span id="cb20-240"><a href="#cb20-240" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-241"><a href="#cb20-241" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>so_w, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep onset on working days (calculated)&quot;</span></span>
+<span id="cb20-242"><a href="#cb20-242" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>so_f, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Sleep onset on free days (calculated)&quot;</span></span>
+<span id="cb20-243"><a href="#cb20-243" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msw, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on working days (calculated)&quot;</span></span>
+<span id="cb20-244"><a href="#cb20-244" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msf, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on free days (calculated)&quot;</span></span>
+<span id="cb20-245"><a href="#cb20-245" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(chronotype<span class="sc">$</span>msf_sc, <span class="st">&quot;label&quot;</span>) <span class="ot">&lt;-</span> <span class="st">&quot;Mid-sleep on free days, sleep corrected (calculated)&quot;</span></span>
+<span id="cb20-246"><a href="#cb20-246" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-247"><a href="#cb20-247" aria-hidden="true" tabindex="-1"></a>chronotype <span class="ot">&lt;-</span> chronotype <span class="sc">|&gt;</span> <span class="fu">rename</span>(<span class="at">Id =</span> record_id)</span>
+<span id="cb20-248"><a href="#cb20-248" aria-hidden="true" tabindex="-1"></a>path <span class="ot">&lt;-</span> <span class="st">&quot;../data/imported/&quot;</span></span>
+<span id="cb20-249"><a href="#cb20-249" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">dir.exists</span>(path)) <span class="fu">dir.create</span>(path, <span class="at">recursive =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb20-250"><a href="#cb20-250" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(chronotype, <span class="at">file =</span> <span class="st">&quot;../data/imported/chronotype.RData&quot;</span>)</span>
+<span id="cb20-251"><a href="#cb20-251" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-252"><a href="#cb20-252" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-253"><a href="#cb20-253" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 </code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
