@@ -1,51 +1,51 @@
 record_id,wearlog_place,wearlog_place_english
-1,NA,NA
-1,schrank,closet
-1,rucksack,rucksack
-2,NA,NA
-3,NA,NA
-4,NA,NA
-5,geben meinem better zum schlafen,give to my bed to sleep
-5,NA,NA
-5,auf dem küchentisch,on the kitchen table
-6,NA,NA
-6,Brille putzen,cleaning glasses
-6,Badezimmer Tisch,Bathroom table
-6,Tisch,Table
-7,NA,NA
-7,Nachttisch zum Schlafen,Nightstand for sleeping
-7,Nachttisch,Bedside table
-8,NA,NA
-9,NA,NA
-10,NA,NA
-10,Schlaftisch,bedside table
-10,Rucksack dunkel schwarz,dark black backpack
-11,NA,NA
-12,-,NA
-12,Hosentasche,pants pocket
-12,NA,NA
-12,Tisch,Table
-12,Nachtschränkchen,bedside table
-12,Regal,Regal
-13,NA,NA
-13,"Auf dem Küchentisch. Die Brille ist mir von der Nase gefallen. Der Sensor ist rausgegangen. Nachdem ich ihn wieder reingesteckt habe, sitzt er nicht mehr so fest in der Sicherung, da eine Plastiktüte abgeblitzt ist.","On the kitchen table. The glasses fell off my nose. The sensor came out. After I put it back in, it does not sit as firmly in the holder, because a plastic bag got damaged."
-13,rucksack,rucksack
-13,nachttisch,nightstand
-13,Auf dem Nachttisch zur Nachtruhe,On the nightstand during sleep
-15,NA,NA
-15,Badezimmerschrank,bathroom cabinet
-16,Schreibtisch,desk
-16,NA,NA
-16,Schreibtisch. Habe keinen schwarzen Beutel erhalten,Desk. I did not receive a black bag
-16,Auto Handschuhfach,Car glove compartment
-16,Spind Fitnesstudio,locker gym
-16,schreibtisch,desk
-16,Spind Fitnessstudio,Locker gym
-16,Auto,Car
-18,NA,NA
-19,NA,NA
-19,Nachttisch,bedside table
-23,Schlafzimmer,Bedroom
-23,NA,NA
-25,NA,NA
-26,NA,NA
+BAUA_S001,NA,NA
+BAUA_S001,schrank,closet
+BAUA_S001,rucksack,backpack
+BAUA_S002,NA,NA
+BAUA_S003,NA,NA
+BAUA_S004,NA,NA
+BAUA_S005,geben meinem better zum schlafen,give to my bed for sleeping
+BAUA_S005,NA,NA
+BAUA_S005,auf dem küchentisch,on the kitchen table
+BAUA_S006,NA,NA
+BAUA_S006,Brille putzen,cleaning glasses
+BAUA_S006,Badezimmer Tisch,Bathroom table
+BAUA_S006,Tisch,table
+BAUA_S007,NA,NA
+BAUA_S007,Nachttisch zum Schlafen,nightstand for sleeping
+BAUA_S007,Nachttisch,nightstand
+BAUA_S008,NA,NA
+BAUA_S009,NA,NA
+BAUA_S010,NA,NA
+BAUA_S010,Schlaftisch,bedside table
+BAUA_S010,Rucksack dunkel schwarz,dark black backpack
+BAUA_S011,NA,NA
+BAUA_S012,-,NA
+BAUA_S012,Hosentasche,pants pocket
+BAUA_S012,NA,NA
+BAUA_S012,Tisch,table
+BAUA_S012,Nachtschränkchen,Bedside table
+BAUA_S012,Regal,shelf
+BAUA_S013,NA,NA
+BAUA_S013,"Auf dem Küchentisch. Die Brille ist mir von der Nase gefallen. Der Sensor ist rausgegangen. Nachdem ich ihn wieder reingesteckt habe, sitzt er nicht mehr so fest in der Sicherung, da eine Plastiktüte abgeblitzt ist.","On the kitchen table. The glasses fell off my nose. The sensor came out. After I put it back in, it no longer sits as firmly in the holder because a plastic bag had sparked."
+BAUA_S013,rucksack,backpack
+BAUA_S013,nachttisch,bedside table
+BAUA_S013,Auf dem Nachttisch zur Nachtruhe,On the bedside table during the night/rest
+BAUA_S015,NA,NA
+BAUA_S015,Badezimmerschrank,bathroom cupboard
+BAUA_S016,Schreibtisch,Desk
+BAUA_S016,NA,NA
+BAUA_S016,Schreibtisch. Habe keinen schwarzen Beutel erhalten,Desk. Did not receive a black bag
+BAUA_S016,Auto Handschuhfach,Car glove compartment
+BAUA_S016,Spind Fitnesstudio,Locker fitness studio
+BAUA_S016,schreibtisch,desk
+BAUA_S016,Spind Fitnessstudio,locker at gym
+BAUA_S016,Auto,Car
+BAUA_S017,NA,NA
+BAUA_S018,NA,NA
+BAUA_S018,Nachttisch,nightstand
+BAUA_S022,Schlafzimmer,Bedroom
+BAUA_S022,NA,NA
+BAUA_S024,NA,NA
+BAUA_S025,NA,NA
