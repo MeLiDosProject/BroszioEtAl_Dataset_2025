@@ -1,0 +1,77 @@
+record_id,start,activity_desc_english,activity_desc
+BAUA_S001,2025-06-11T15:00:00Z,Gardening,Gartenarbeit
+BAUA_S001,2025-06-14T07:00:00Z,Shopping,Einkaufen
+BAUA_S001,2025-06-14T10:00:00Z,Shopping and cafe,Einkaufen + Cafe
+BAUA_S001,2025-06-14T11:00:00Z,Cafe,Cafe
+BAUA_S004,2025-06-10T16:00:00Z,Martial arts training,8=Kampftraining
+BAUA_S004,2025-06-11T16:00:00Z,Sport outdoors,8=Sport im Freien
+BAUA_S004,2025-06-12T17:00:00Z,Sports in the gym,8= Sport im Kraftraum
+BAUA_S004,2025-06-13T10:00:00Z,Sport in the gym,8=Sport in der Turnhalle
+BAUA_S004,2025-06-14T17:00:00Z,Sport,8= Sport
+BAUA_S004,2025-06-15T15:00:00Z,Cycling,8= Radfahren
+BAUA_S004,2025-06-16T15:00:00Z,Sport in the gymnasium,8=Sport in de rHalle
+BAUA_S005,2025-06-10T18:00:00Z,Painting,8 = Malen
+BAUA_S005,2025-06-11T19:00:00Z,Hobbies,8 = Hobbies
+BAUA_S005,2025-06-13T17:00:00Z,8=Walking,8=Spazieren
+BAUA_S005,2025-06-14T10:00:00Z,Dungeons and Dragons,8= Dungeons and Dragons
+BAUA_S005,2025-06-14T17:00:00Z,Hobby,8=Hobbie
+BAUA_S005,2025-06-14T22:00:00Z,Graphic design on the iPad,8= Graphikdesign am Ipad
+BAUA_S007,2025-06-24T14:00:00Z,Shopping,Einkaufen
+BAUA_S007,2025-06-26T14:00:00Z,Cafe and shopping,8=Cafe und Einkaufen
+BAUA_S007,2025-06-28T06:00:00Z,Shopping,Einkaufen
+BAUA_S007,2025-06-28T09:00:00Z,TV,TV
+BAUA_S007,2025-06-28T18:00:00Z,TV,TV
+BAUA_S007,2025-06-29T03:00:00Z,Toilet,WC
+BAUA_S007,2025-06-29T06:00:00Z,TV,TV
+BAUA_S007,2025-06-29T17:00:00Z,TV,TV
+BAUA_S007,2025-06-30T15:00:00Z,Shopping,Einkaufen
+BAUA_S009,2025-06-24T17:00:00Z,Clubhouse,Vereinsheim [...]
+BAUA_S009,2025-06-29T12:00:00Z,Outdoor sports,Sport im Freien
+BAUA_S014,2025-07-16T15:00:00Z,Sports outdoors,Sport im Freien
+BAUA_S014,2025-07-19T06:00:00Z,Sport,Sport
+BAUA_S015,2025-07-23T09:00:00Z,Company outing indoors and outdoors,Betriebsausflug in und Outdoor
+BAUA_S015,2025-07-23T10:00:00Z,NA,""""
+BAUA_S015,2025-07-23T11:00:00Z,NA,""""
+BAUA_S015,2025-07-23T12:00:00Z,NA,""""
+BAUA_S015,2025-07-23T13:00:00Z,NA,""""
+BAUA_S015,2025-07-23T14:00:00Z,NA,""""
+BAUA_S015,2025-07-25T16:00:00Z,partly also indoors or outdoors,teilweise auch drinnen bzw draußen
+BAUA_S015,2025-07-25T17:00:00Z,NA,""""
+BAUA_S015,2025-07-25T18:00:00Z,NA,""""
+BAUA_S015,2025-07-25T19:00:00Z,NA,""""
+BAUA_S015,2025-07-26T12:00:00Z,with a friend,bei einer Freunding
+BAUA_S015,2025-07-26T13:00:00Z,NA,""""
+BAUA_S015,2025-07-26T14:00:00Z,NA,""""
+BAUA_S015,2025-07-26T15:00:00Z,NA,""""
+BAUA_S015,2025-07-28T14:00:00Z,In the city,In der Stadt
+BAUA_S015,2025-07-28T15:00:00Z,NA,""""
+BAUA_S015,2025-07-28T16:00:00Z,Helped a friend at her work,Freundin auf ihrer Arbeit geholfen
+BAUA_S015,2025-07-28T17:00:00Z,NA,""""
+BAUA_S015,2025-07-28T18:00:00Z,NA,""""
+BAUA_S015,2025-07-28T19:00:00Z,NA,""""
+BAUA_S016,2025-07-23T13:00:00Z,Sport outdoors,Sport im freien
+BAUA_S016,2025-07-24T14:00:00Z,Sports at the gym,Sport im Gym
+BAUA_S016,2025-07-24T15:00:00Z,NA,""""
+BAUA_S016,2025-07-26T09:00:00Z,Jogging outside,Joggen draußen
+BAUA_S016,2025-07-27T09:00:00Z,Sport fitness studio,Sport Fitnessstudio
+BAUA_S017,2025-09-11T10:00:00Z,Restaurant with family,Restaurant mit Familie
+BAUA_S017,2025-09-12T10:00:00Z,Restaurant,Restaurant
+BAUA_S017,2025-09-12T11:00:00Z,NA,""""
+BAUA_S017,2025-09-12T12:00:00Z,NA,""""
+BAUA_S018,2025-09-09T16:00:00Z,Plasma donation in an illuminated room,Plasmaspende im beleuchteten Raum
+BAUA_S018,2025-09-09T17:00:00Z,Restaurant,Restaurant
+BAUA_S018,2025-09-09T18:00:00Z,NA,""""
+BAUA_S018,2025-09-11T04:00:00Z,Car,Auto
+BAUA_S018,2025-09-11T15:00:00Z,NA,heute 10:45 stunden
+BAUA_S018,2025-09-13T11:00:00Z,Cinema,Kino
+BAUA_S018,2025-09-13T12:00:00Z,NA,""""
+BAUA_S018,2025-09-13T13:00:00Z,NA,""""
+BAUA_S018,2025-09-13T14:00:00Z,NA,""""
+BAUA_S023,2025-09-27T11:00:00Z,Stay in the shopping mall,Aufenthalt im Einkaufszentrum
+BAUA_S025,2025-10-13T15:00:00Z,Play PC games,PC zocken
+BAUA_S025,2025-10-13T20:00:00Z,Film,Film
+BAUA_S025,2025-10-14T19:00:00Z,Film,Film
+BAUA_S025,2025-10-16T20:00:00Z,Movie on screen,Film auf Leinwand
+BAUA_S025,2025-10-18T09:00:00Z,Double feature at the real cinema,Hier double feature im richtigen Kino
+BAUA_S025,2025-10-19T11:00:00Z,Grandparents,Großeltern
+BAUA_S025,2025-10-19T20:00:00Z,Film on screen,Film auf Leinwand
