@@ -108,6 +108,46 @@ data_cleaned |> has_irregulars()
 data_cleaned |> gap_table(MEDI) |> cols_hide(ends_with("_n"))
 ```
 
+## Time shifts
+
+Through cross-correlation with other wearing positions, a time shift in the chest data from `BAUA_S006` of 2 hours was determined. However, upon visual inspection, a one hour shift is sensible:
+
+```{r}
+#| fig-height: 20
+#| fig-width: 10
+#getting all wearing positions
+files <- list.dirs("../data/raw/individual/BAUA_S006/continuous", full.names = TRUE)
+files <- files[str_detect(files, "actlumus")] |> list.files(full.names = TRUE)
+files <- files[str_detect(files, "Report", negate = TRUE)]
+
+#loading the data
+pattern <- "[A-Z]+_S[0-9]{3}_[hcw]"
+data2 <- 
+  import$ActLumus(files, tzs[site], auto.id = pattern,
+                  dst_adjustment = TRUE)
+
+data2 |> 
+  aggregate_Datetime("30 mins") |> 
+  mutate(
+    Datetime = case_when(
+      Id == "BAUA_S006_c" ~ Datetime + dhours(1),
+      .default = Datetime)
+    ) |>
+  gg_day(geom = "line", aes_col = Id, linewidth = 0.25) |> 
+  gg_photoperiod(coordinates[[site]]) 
+
+```
+
+```{r}
+data_cleaned <- 
+  data_cleaned |> 
+  mutate(
+    Datetime = case_when(
+      Id == "BAUA_S006_c" ~ Datetime + dhours(1),
+      .default = Datetime)
+    )
+```
+
 ## Exporting values
 
 ```{r}
