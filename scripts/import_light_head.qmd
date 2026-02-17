@@ -114,13 +114,6 @@ data_cleaned |> gap_table(MEDI) |> cols_hide(ends_with("_n"))
 data_cleaned |> sample_groups(sample = 18) |> gg_days()
 ```
 
-```{r}
-data_cleaned <- 
-  data_cleaned |> 
-  filter(Id == "BAUA_S023")
-```
-
-
 ## Exporting values
 
 ```{r}
