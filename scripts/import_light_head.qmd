@@ -14,9 +14,9 @@ This is a work-in-progress descriptive analysis of the `BroszioEtAl2025` dataset
 ```{r}
 #| label: setup
 #| include: false
+library(tidyverse)
 library(LightLogR)
 library(glue)
-library(tidyverse)
 library(gt)
 library(readxl)
 library(cowplot)
@@ -112,6 +112,9 @@ data_cleaned |> gap_table(MEDI) |> cols_hide(ends_with("_n"))
 
 ```{r}
 data_cleaned |> sample_groups(sample = 18) |> gg_days()
+
+data_cleaned <-
+  data_cleaned |> filter_out(Id == "BAUA_S023")
 ```
 
 ## Exporting values
