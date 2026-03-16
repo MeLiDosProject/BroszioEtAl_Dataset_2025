@@ -43,12 +43,26 @@ c("labeling",
 codebook <- prepare_codebook("MeLiDosMorningSleepDiaries_DataDictionary_2024-10-16.csv")
 #collect files
 files <- filefinder("sleepdiary", continuous = TRUE)
+files2 <- files |> subset(grepl("corrected", files))
+files <- files |> setdiff(files2)
+
 #import files
 data <- 
   read_csv(files, show_col_types = FALSE) |> 
   fill(redcap_survey_identifier) |> 
   drop_na(bedtime) |> 
   mutate(record_id = redcap_survey_identifier)
+data2 <- 
+  read_csv2(files2, show_col_types = FALSE) |> 
+  fill(redcap_survey_identifier) |> 
+  drop_na(bedtime) |> 
+  mutate(record_id = redcap_survey_identifier,
+         across(c("bedtime", "sleep", "offset", "out_ofbed",
+                  "startdate", "enddate", "scheduledate"),
+                \(x) parse_date_time(x, "dmyHM")))
+data <- 
+  rbind(data, data2) |> 
+  arrange(record_id, redcap_repeat_instance)
 #check column types
 coltype_check <- coltype_checker(codebook, data)
 coltype_check$details |> gt()
