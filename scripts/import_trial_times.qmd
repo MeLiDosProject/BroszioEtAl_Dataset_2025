@@ -1,6 +1,9 @@
 ---
 title: "import_trial_times"
-format: html
+format: 
+  html:
+    self-contained: true
+    code-tools: true
 ---
 
 ```{r}
