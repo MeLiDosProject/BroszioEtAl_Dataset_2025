@@ -24,8 +24,9 @@ library(readxl)
 library(gt)
 library(gtsummary)
 
-remote <- 
-  "https://raw.githubusercontent.com/MeLiDosProject/Data_Metadata_Conventions/main/scripts/"
+metadata_root <- Sys.getenv("MELIDOS_METADATA_ROOT", unset = "../metadata")
+stopifnot(dir.exists(file.path(metadata_root, "scripts")))
+remote <- paste0(normalizePath(file.path(metadata_root, "scripts")), "/")
 
 c("labeling",
   "radio_factors",  
@@ -57,6 +58,35 @@ data <-
          record_id = redcap_survey_identifier,
          across(medication:disorder, as.logical),
          medication_type = as.character(medication_type))
+```
+
+### Resolve repeated assessments
+
+The approved selection retains BAUA_S020 instance 2 and BAUA_S019 instance 1.
+The other instances have identical exported health answers. Raw submissions
+remain unchanged; the excluded assessment keys are recorded separately.
+
+```{r}
+assessment_choices <- tribble(
+  ~record_id, ~redcap_repeat_instance, ~keep,
+  "BAUA_S020", 1, FALSE,
+  "BAUA_S020", 2, TRUE,
+  "BAUA_S019", 1, TRUE,
+  "BAUA_S019", 2, FALSE
+)
+selected_assessments <- data |>
+  inner_join(assessment_choices, by = c("record_id", "redcap_repeat_instance"),
+             relationship = "one-to-one")
+stopifnot(nrow(selected_assessments) == nrow(assessment_choices))
+excluded_assessments <- assessment_choices |> filter(!keep) |> select(-keep)
+dir.create("../output/data_quality", recursive = TRUE, showWarnings = FALSE)
+write_csv(excluded_assessments, "../output/data_quality/health_excluded_assessments.csv")
+data <- data |>
+  anti_join(excluded_assessments, by = c("record_id", "redcap_repeat_instance"))
+stopifnot(!anyDuplicated(data$record_id))
+```
+
+```{r}
 #check column types
 coltype_check <- coltype_checker(codebook, data)
 coltype_check$details |> gt()
@@ -84,6 +114,7 @@ data <-
 ## Summarize results
 
 ```{r}
+#| purl: false
 table_health(data)
 
 gtsave(table_health(data) |> as_gt(), filename = "../output/tables/table_health.png", vwidth = 800)
